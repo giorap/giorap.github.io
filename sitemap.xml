@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/giorap.github.io/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/giorap.github.io/post/vivamus-lacus-mauris/</loc>
+    <lastmod>2013-06-17T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/giorap.github.io/service/service3/</loc>
+  </url>
+  
+  <url>
+    <loc>/giorap.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/giorap.github.io/service/service1/</loc>
+  </url>
+  
+  <url>
+    <loc>/giorap.github.io/</loc>
+    <lastmod>2013-06-17T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/giorap.github.io/post/</loc>
+    <lastmod>2013-06-17T12:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/giorap.github.io/service/service4/</loc>
+  </url>
+  
+  <url>
+    <loc>/giorap.github.io/service/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/giorap.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/giorap.github.io/service/service2/</loc>
+  </url>
+  
+</urlset>
