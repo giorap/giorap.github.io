@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Meta on My HugoMDL Site</title>
-    <link>https://giorap.github.io/tags/meta/</link>
+    <link>/tags/meta/</link>
     <description>Recent content in Meta on My HugoMDL Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 05 Oct 2015 02:27:08 +0000</lastBuildDate>
     
-	<atom:link href="https://giorap.github.io/tags/meta/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/meta/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Awesome Collaborative Project</title>
-      <link>https://giorap.github.io/project/collaborativeproject/</link>
+      <link>/project/collaborativeproject/</link>
       <pubDate>Mon, 05 Oct 2015 02:27:08 +0000</pubDate>
       
-      <guid>https://giorap.github.io/project/collaborativeproject/</guid>
+      <guid>/project/collaborativeproject/</guid>
       <description>Mustache keytar disrupt ugh PBR. Before they sold out Brooklyn pickled, lumbersexual lo-fi mustache hoodie Tumblr Banksy semiotics salvia seitan 8-bit four loko PBR. Readymade mumblecore selfies, forage Schlitz Truffaut Portland PBR&amp;amp;B brunch sustainable chia retro 90&amp;rsquo;s tofu actually. Cold-pressed synth pickled Blue Bottle, chambray photo booth Schlitz Austin leggings distillery. Whatever kogi gastropub hashtag, 90&amp;rsquo;s wayfarers church-key ennui chia actually. Disrupt Bushwick trust fund, bicycle rights umami pork belly sartorial lumbersexual scenester asymmetrical Schlitz.</description>
     </item>
     
     <item>
       <title>Useful Code Snippet</title>
-      <link>https://giorap.github.io/project/snippet/</link>
+      <link>/project/snippet/</link>
       <pubDate>Mon, 05 Oct 2015 02:24:15 +0000</pubDate>
       
-      <guid>https://giorap.github.io/project/snippet/</guid>
+      <guid>/project/snippet/</guid>
       <description>Mustache keytar disrupt ugh PBR. Before they sold out Brooklyn pickled, lumbersexual lo-fi mustache hoodie Tumblr Banksy semiotics salvia seitan 8-bit four loko PBR. Readymade mumblecore selfies, forage Schlitz Truffaut Portland PBR&amp;amp;B brunch sustainable chia retro 90&amp;rsquo;s tofu actually. Cold-pressed synth pickled Blue Bottle, chambray photo booth Schlitz Austin leggings distillery. Whatever kogi gastropub hashtag, 90&amp;rsquo;s wayfarers church-key ennui chia actually. Disrupt Bushwick trust fund, bicycle rights umami pork belly sartorial lumbersexual scenester asymmetrical Schlitz.</description>
     </item>
     
     <item>
       <title>Cool Post</title>
-      <link>https://giorap.github.io/post/coolpost/</link>
+      <link>/post/coolpost/</link>
       <pubDate>Sun, 04 Oct 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://giorap.github.io/post/coolpost/</guid>
+      <guid>/post/coolpost/</guid>
       <description>&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s,
 when an unknown printer took a galley of type and scrambled it to make a type
@@ -43,10 +43,10 @@ specimen book.&lt;/p&gt;</description>
     
     <item>
       <title>Stellar Post</title>
-      <link>https://giorap.github.io/post/another/</link>
+      <link>/post/another/</link>
       <pubDate>Wed, 26 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://giorap.github.io/post/another/</guid>
+      <guid>/post/another/</guid>
       <description>&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s,
 when an unknown printer took a galley of type and scrambled it to make a type
@@ -55,19 +55,19 @@ specimen book.&lt;/p&gt;</description>
     
     <item>
       <title>Third Post</title>
-      <link>https://giorap.github.io/post/third/</link>
+      <link>/post/third/</link>
       <pubDate>Thu, 20 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://giorap.github.io/post/third/</guid>
+      <guid>/post/third/</guid>
       <description>&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Amazing Post</title>
-      <link>https://giorap.github.io/post/another2/</link>
+      <link>/post/another2/</link>
       <pubDate>Wed, 19 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://giorap.github.io/post/another2/</guid>
+      <guid>/post/another2/</guid>
       <description>&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s,
 when an unknown printer took a galley of type and scrambled it to make a type
@@ -76,10 +76,10 @@ specimen book.&lt;/p&gt;</description>
     
     <item>
       <title>Awesome Post</title>
-      <link>https://giorap.github.io/post/andyetanother/</link>
+      <link>/post/andyetanother/</link>
       <pubDate>Wed, 19 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://giorap.github.io/post/andyetanother/</guid>
+      <guid>/post/andyetanother/</guid>
       <description>&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s,
 when an unknown printer took a galley of type and scrambled it to make a type
@@ -88,10 +88,10 @@ specimen book.&lt;/p&gt;</description>
     
     <item>
       <title>Fantastic Post</title>
-      <link>https://giorap.github.io/post/another1/</link>
+      <link>/post/another1/</link>
       <pubDate>Wed, 19 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://giorap.github.io/post/another1/</guid>
+      <guid>/post/another1/</guid>
       <description>&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s,
 when an unknown printer took a galley of type and scrambled it to make a type
@@ -100,19 +100,19 @@ specimen book.&lt;/p&gt;</description>
     
     <item>
       <title>Second Post</title>
-      <link>https://giorap.github.io/post/second/</link>
+      <link>/post/second/</link>
       <pubDate>Wed, 19 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://giorap.github.io/post/second/</guid>
+      <guid>/post/second/</guid>
       <description>&lt;p&gt;Lorem Ipsum is simply dummy text of the printing&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Sweet Post</title>
-      <link>https://giorap.github.io/post/yetanother/</link>
+      <link>/post/yetanother/</link>
       <pubDate>Wed, 19 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://giorap.github.io/post/yetanother/</guid>
+      <guid>/post/yetanother/</guid>
       <description>&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s,
 when an unknown printer took a galley of type and scrambled it to make a type
@@ -121,10 +121,10 @@ specimen book.&lt;/p&gt;</description>
     
     <item>
       <title>That Post</title>
-      <link>https://giorap.github.io/post/omgsomanymore/</link>
+      <link>/post/omgsomanymore/</link>
       <pubDate>Wed, 19 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://giorap.github.io/post/omgsomanymore/</guid>
+      <guid>/post/omgsomanymore/</guid>
       <description>&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s,
 when an unknown printer took a galley of type and scrambled it to make a type
@@ -133,10 +133,10 @@ specimen book.&lt;/p&gt;</description>
     
     <item>
       <title>This Post</title>
-      <link>https://giorap.github.io/post/omgsomany/</link>
+      <link>/post/omgsomany/</link>
       <pubDate>Wed, 19 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://giorap.github.io/post/omgsomany/</guid>
+      <guid>/post/omgsomany/</guid>
       <description>&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s,
 when an unknown printer took a galley of type and scrambled it to make a type
@@ -145,10 +145,10 @@ specimen book.&lt;/p&gt;</description>
     
     <item>
       <title>Wow! Such Post!</title>
-      <link>https://giorap.github.io/post/another3/</link>
+      <link>/post/another3/</link>
       <pubDate>Wed, 19 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://giorap.github.io/post/another3/</guid>
+      <guid>/post/another3/</guid>
       <description>&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s,
 when an unknown printer took a galley of type and scrambled it to make a type
@@ -157,10 +157,10 @@ specimen book.&lt;/p&gt;</description>
     
     <item>
       <title>First Post</title>
-      <link>https://giorap.github.io/post/first/</link>
+      <link>/post/first/</link>
       <pubDate>Tue, 18 Aug 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://giorap.github.io/post/first/</guid>
+      <guid>/post/first/</guid>
       <description>&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry.&lt;/p&gt;</description>
     </item>
     

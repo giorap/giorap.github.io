@@ -3,180 +3,180 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://giorap.github.io/project/collaborativeproject/</loc>
+    <loc>/project/collaborativeproject/</loc>
     <lastmod>2015-10-05T02:27:08+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/project/snippet/</loc>
+    <loc>/project/snippet/</loc>
     <lastmod>2015-10-05T02:24:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/post/coolpost/</loc>
+    <loc>/post/coolpost/</loc>
     <lastmod>2015-10-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/project/coolcode/</loc>
+    <loc>/project/coolcode/</loc>
     <lastmod>2015-09-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/project/coolwebsite/</loc>
+    <loc>/project/coolwebsite/</loc>
     <lastmod>2015-09-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/project/myproject/</loc>
+    <loc>/project/myproject/</loc>
     <lastmod>2015-09-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/project/hugotheme/</loc>
+    <loc>/project/hugotheme/</loc>
     <lastmod>2015-09-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/post/another/</loc>
+    <loc>/post/another/</loc>
     <lastmod>2015-08-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/post/third/</loc>
+    <loc>/post/third/</loc>
     <lastmod>2015-08-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/post/another2/</loc>
+    <loc>/post/another2/</loc>
     <lastmod>2015-08-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/post/andyetanother/</loc>
+    <loc>/post/andyetanother/</loc>
     <lastmod>2015-08-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/post/another1/</loc>
+    <loc>/post/another1/</loc>
     <lastmod>2015-08-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/post/second/</loc>
+    <loc>/post/second/</loc>
     <lastmod>2015-08-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/post/yetanother/</loc>
+    <loc>/post/yetanother/</loc>
     <lastmod>2015-08-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/post/omgsomanymore/</loc>
+    <loc>/post/omgsomanymore/</loc>
     <lastmod>2015-08-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/post/omgsomany/</loc>
+    <loc>/post/omgsomany/</loc>
     <lastmod>2015-08-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/post/another3/</loc>
+    <loc>/post/another3/</loc>
     <lastmod>2015-08-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2015-08-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/post/first/</loc>
+    <loc>/post/first/</loc>
     <lastmod>2015-08-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/categories/about/</loc>
-    <lastmod>2015-08-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://giorap.github.io/tags/bio/</loc>
+    <loc>/categories/about/</loc>
     <lastmod>2015-08-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/categories/bio/</loc>
+    <loc>/tags/bio/</loc>
     <lastmod>2015-08-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/categories/</loc>
+    <loc>/categories/bio/</loc>
     <lastmod>2015-08-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/tags/meta/</loc>
+    <loc>/categories/</loc>
+    <lastmod>2015-08-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/meta/</loc>
     <lastmod>2015-10-05T02:27:08+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/categories/meta/</loc>
+    <loc>/categories/meta/</loc>
     <lastmod>2015-08-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/</loc>
+    <loc>/</loc>
     <lastmod>2015-10-05T02:27:08+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/categories/post/</loc>
+    <loc>/categories/post/</loc>
     <lastmod>2015-10-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2015-10-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/tags/project/</loc>
+    <loc>/tags/project/</loc>
     <lastmod>2015-10-05T02:27:08+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/categories/project/</loc>
+    <loc>/categories/project/</loc>
     <lastmod>2015-10-05T02:27:08+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/project/</loc>
+    <loc>/project/</loc>
     <lastmod>2015-10-05T02:27:08+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2015-08-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://giorap.github.io/tags/test/</loc>
+    <loc>/tags/test/</loc>
     <lastmod>2015-10-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
