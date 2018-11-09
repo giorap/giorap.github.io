@@ -1,0 +1,441 @@
+---
+date: "AUg 28, 2018"
+output:
+  html_document:
+    css: grapacciuolo-resume-theme.css
+---
+
+Giovanni Rapacciuolo, Ph.D. 
+====================
+
+----------------------------------------------           -------------------------------
+[Life and Environmental Sciences][1]                        **email** giorapac@gmail.com
+University of California, Merced                             **phone** +1 (510) 610-5646
+Merced                                                    **skype** giovanni.rapacciuolo 
+California 95343, USA                                    **www** [giorapacciuolo.com][2]
+----------------------------------------------           -------------------------------
+
+KEY EXPERTISE
+-------------
+
+Biodiversity and Global Change
+
+:   Modeling of past and future impacts of environmental change on the distribution of species and ecosystems.
+
+:   Geospatial analyses and Geographic Information Systems (GIS).
+
+:   Systematic conservation planning.
+
+Data Science
+
+:   Programming and statistics.
+
+:   Synthesis, management, analysis and visualization of big datasets.
+
+:   Information sharing and open and reproducible science workflows.
+
+Leadership and Management
+
+:   Leadership of international multi-disciplinary and multi-institution teams.
+
+:   Excellent written and oral communication skills as evidenced by record of scientific publications/talks/lectures.
+
+:   Supervision and training of undergraduate and graduate students.
+
+EDUCATION
+---------
+ 
+2009 - 2013 
+:   **PhD, Biodiversity and Global Change. Imperial College London, UK**      
+    
+    Title: ["Predicting species' range shifts under global change: when can species distribution models be useful?"][31]    
+    
+    *  Modeled distribution responses of British plants, birds and butterflies to recent environmental changes
+    *  Developed methods for testing the prediction accuracy of species distribution models in space and time
+    
+    Advisors: Prof Andy Purvis (Imperial College London), Dr David Roy (Centre for Ecology and Hydrology)
+        
+2005 - 2009
+:   **MSci (undergraduate degree), Biology, 1^st^ class honors. Imperial College London, UK**
+     
+    Thesis: "Traits correlates of range change in British plants"
+ 
+PROFESSIONAL EXPERIENCE
+-----------------------
+2017 - present 
+:   **Postdoctoral Scholar. University of California Merced, CA, USA**
+    
+    *  Modeled the drivers of ecological community structure and dynamics in Palau marine lake ecosystems
+    *  Integrated modern ecological survey data with paleoecological data
+    
+    Advisors: Prof Michael Dawson, Prof Jessica Blois. Project: [NSF Dimensions of Biodiversity Grant][30]
+    
+2015 -  2017 
+:   **Biodiversity Postdoctoral Associate. NatureServe, VA, USA** 
+    
+    *  Modeled the drivers of species, functional and phylogenetic biodiversity across terrestrial vertebrates
+    *  Analyzed the relationship among biodiversity dimensions in spatial conservation planning
+    *  Projected the future impacts of species extinctions on terrestrial vertebrate biodiversity
+    
+    Advisors: Dr Bruce Young, Prof Catherine Graham. Project: [NSF Dimensions of Biodiversity Grant][14]
+
+
+2013 - 2015 
+:   **Postdoctoral Scholar. University of California Berkeley, CA, USA**      
+    
+    *  Modeled the responses of California plants, vertebrates and invertebrates to 20th century climate change
+    *  Collaborated on building an online tool ([https://holos.berkeley.edu/][15]) integrating many spatial and temporal biodiversity data sources to advance understanding of biotic responses to global change
+    
+    Advisors: Prof Rosemary Gillespie, Prof Charles Marshall. Project: [Berkeley in Global Change Biology][39]
+
+GRANTS AND FELLOWSHIPS
+------
+2015 - $5,000
+
+:   [**Socio-environmental Immersion Fellowship**][18]. National Socio-Environmental Synthesis Center, MY, USA.
+
+2013 - $100,000
+
+:   [**Postdoctoral Scholarship**][21]. Berkeley Initiative in Global Change Biology, CA, USA.      
+    
+2009 - $50,000
+
+:   [**Climate Change Research Scholarship**][20]. Old Mutual plc, London, UK.      
+
+PUBLICATIONS                                                        
+------------   
+
+#### [Google Scholar profile][9] | [Altmetrics data][8]
+
+In review <br> *(drafts available* <br> *upon request)*
+
+:     **Rapacciuolo G**, Blois J. Understanding community dynamics in space and time: integrating data and methods in light of theory. *Ecography*.
+
+:     **Rapacciuolo G**, Beman JM, Schiebelhut LM, Dawson MN. Microbes and macro-invertebrates show parallel beta-diversity but contrasting alpha-diversity patterns in a marine natural experiment. *Proceedings of the Royal Society B*.
+
+:     Radeloff VC [and 17 others, including **Rapacciuolo G**]. The Dynamic Habitat Indices (DHIs) from MODIS and global biodiversity. *Remote Sensing of Environment*.  
+
+Accepted
+
+:     **Rapacciuolo G**, Graham CH, Marin, J, Behm JE, Costa GC, Hedges SB, Helmus MR, Radeloff VC, Young BE, Brooks TM. Species diversity as a surrogate for the conservation of phylogenetic and functional diversity in terrestrial vertebrates across the Americas. *Nature Ecology & Evolution*.
+
+:     **Rapacciuolo G**. Strengthening the contribution of macroecological models to conservation practice. Invited contribution for the 30th anniversary of macroecology series at *Global Ecology and Biogeography*.
+
+2018
+
+:     Yates KL [and 49 others, including **Rapacciuolo G**]. Outstanding challenges in the transferability of ecological models. *Trends in Ecology and Evolution*. Online early. [Find full text][41].
+
+:     Marin J, **Rapacciuolo G**, Costa GC, Graham CH, Brooks TM, Young BE, Radeloff VC, Behm JE, Helmus MR, Hedges SB. Evolutionary time drives global tetrapod diversity. *Proc. Roy. Soc. B* **285**. [Find full text][40].
+
+2017
+
+:     **Rapacciuolo G**, Ball-Damerow JE, Zeilinger A, Resh VH. Detecting long-term occupancy changes in Californian odonates from natural history and citizen science records. *Biodiversity and Conservation* **26**: 2933-2949. [Find full text][33].
+
+:     **Rapacciuolo G**, Marin J, Costa GC, Helmus MR, Behm JE, Brooks TM, Hedges SB, Radeloff VC, Young BE, Graham CH. The signature of human pressure history on the biogeography of body mass in tetrapods. *Global Ecology and Biogeography* **26**: 1022-1034. [Find full text][32].
+
+:     Zeilinger A, **Rapacciuolo G**, Turek D, Oboyski P, Almeida R, Roderick G. Museum specimen data reveal emergence of a plant disease may be linked to increases in the insect vector population. *Ecological Applications* **27**: 1827-1837. [Find full text][29].
+
+:     Young BE, Auer S, Ormes M, **Rapacciuolo G**, Schweitzer D, Sears N. Are pollinating hawk moths declining in the Northeastern United States? An analysis of collection records. *PLoS ONE* **12**: e0185683. [Find full text][36].
+
+2016
+
+:     Fiorella KJ, **Rapacciuolo G**, Trisos C. (2016) Species loss: learn from health metrics. *Nature (Correspondence)* **538**: 371. [Find full text][17].
+
+:     Kelly M, Easterday K, **Rapacciuolo G**, Koo MS, McIntyre P, Thorne J. (2016) Rescuing and sharing historical vegetation data for ecological analysis: The California Vegetation Type Mapping project. *Biodiversity Data Journal* **11**: 40 - 62. [Find full text][16].  
+
+2015
+
+:     Pearse WD, Chase MW, Crawley MJ, Dolphin K, Fay MF, Joseph JA, Powney G, Preston CD, **Rapacciuolo G**, Roy DB, and Purvis A (2015) Beyond the EDGE with EDAM: prioritising British plant species according to evolutionary distinctiveness, and accuracy and magnitude of decline. *PLoS One* **10**: e0126524. [Find full text][11].   
+
+2014
+
+:     **Rapacciuolo G**, Maher S, Schneider AC, Hammond TT, Jabis MD, Walsh WE, Iknayan KJ, Walden GK, Oldfather MF, Ackerly DD, Beissinger SR (2014) 
+Beyond a warming fingerprint: individualistic biogeographic responses to heterogeneous climate change in California. *Global Change Biology* **20**: 2841 - 2855. [Find full text][3].
+
+:     **Rapacciuolo G**, Roy DB, Gillings S, Purvis A (2014). 
+Temporal validation plots: quantifying how well species distribution models predict species' range 
+changes over time. *Methods in Ecology and Evolution* **5**: 407 - 420. [Find full text][4].
+
+:     Powney GD, **Rapacciuolo G**, Preston CD, Purvis A, Roy DB (2014) 
+A phylogenetically-informed trait-based analysis of range change in the vascular plant flora of 
+Britain. *Biodiversity and Conservation* 23: 171 - 185. [Find full text][5].  
+
+2012
+
+:     **Rapacciuolo G**, Roy DB, Gillings S, Fox R, Walker K, Purvis A (2012) 
+Climatic associations of British species distributions show good transferability in time but low 
+predictive accuracy for range change. *PLoS One* **7**: e40212. [Find full text][6].
+
+:     Oliver TH, Gillings S, Girardello M, **Rapacciuolo G**, Brereton TM, Siriwardena GM, Roy DB, Pywell R, Fuller RJ (2012) Population density but not stability can be predicted from species distribution models. *Journal of Applied Ecology* **49**: 581 - 590. [Find full text][7].
+
+TECHNICAL SKILLS
+----------------
+
+Biodiversity Modeling
+
+:   Expertise in species distribution and occupancy modeling using Generalized Linear, Machine Learning, and Hierarchical Bayesian models.
+
+:   Expertise in modeling spatial and temporal variation in of species, functional and phylogenetic diversity of ecological communities. 
+
+:   Expertise in geospatial analyses and Geographic Information Systems (GIS) using R, ArcGIS and ArcPy.
+
+:   Expertise in systematic spatial conservation planning using Zonation.
+
+Programming and Data Science
+
+:   Expertise in R programming and statistical environment for integration, manipulation and analysis of big data.
+
+:   Expertise in in reproducible workflows, code version control and management using Git and GitHub.
+
+:   Expertise in data visualization and sharing using ggplot2, R Markdown, R Shiny, HTML, CSS.
+
+:   Working knowledge of Python and SQL.
+
+Languages
+
+:   Trilingual: English (native), French (native), Italian (native).
+
+TEACHING
+--------
+### Guest lecturer ###
+
+2017 
+
+:   "The Nature of Communities". ESS 148: Fundamentals of Ecology. University of California, Merced, CA, USA.
+
+:   "Change in Communities". ESS 148: Fundamentals of Ecology. University of California, Merced, CA, USA.
+
+### Teaching assistant ###
+
+2011, 2012
+
+:   Computing and Biodiversity courses. MS, Ecology, Evolution and Conservation, Imperial College London, UK. 
+    
+2010, 2011    
+    
+:   Statistics and Computing courses. years 1-3, BS, Biology, Imperial College London, UK.
+
+### Graduate supervisor ###
+
+2011    
+    
+:   Emma Sheard. MS, Ecology, Evolution and Conservation, Imperial College London, UK.
+
+    Thesis title: "Can biotic interactions be used to explain the distribution of monophagous moths in Britain?".
+
+### Undergraduate supervisor ###
+
+2017, 2018
+
+:   Carolina Karuppiah. BS, Psychology, University of California, Merced, CA, USA.
+
+:   Zachary Malone. BS, Earth System Science, University of California, Merced, CA, USA.
+
+2013
+
+:   Arif Ali. BS, Computer Science, University of California, Berkeley, CA, USA.
+
+### Co-instructor ###
+
+2013, 2014
+
+:   [Species Distribution Modeling workshop][26]. University of California, Berkeley, CA, USA.
+    
+2010, 2011    
+    
+:   Generalised Linear Modeling in R course. Imperial College London, UK.
+
+INVITED TALKS
+-------------
+22 Mar 2018
+
+:   **University of California Berkeley, Berkeley, CA, USA.**
+
+    "Dimensions of terrestrial vertebrate biodiversity: key drivers and opportunities for conservation" 
+
+21 Apr 2017
+
+:   **American Museum of Natural History, New York City, NY, USA.**
+
+    "The consequences of species loss for terrestrial vertebrate biodiversity" 
+
+24 Jan 2017
+
+:   **University of California, Los Angeles, Los Angeles, CA, USA.**
+
+    "Improving climate change vulnerability assessments using data on functional traits and historical distributions".
+
+24 Apr 2014
+
+:   **[Australian National University][27], Canberra, AU.**
+
+    "Using historic data sources to calibrate and validate models of species' range dynamics".
+
+21 Sep 2012
+
+:   **[Botanical Society of the British Isles][28], Edinburgh, UK.**
+
+    "Can we predict recently-observed changes in the British Flora?".
+
+CONFERENCE PRESENTATIONS
+------------------------
+
+June 2018 - Talk
+
+:   "We have all the data, now what? The importance of planning for biodiversity data integration". Digital Data in Biodiversity Research Conference, Berkeley, CA
+
+Jan 2017 - Poster
+
+:    "A signature of human pressure amid ecological constraints on the distribution of body mass in tetrapods". International Biogeography Society Meeting, Tucson, AZ, USA.
+
+Apr 2014 - Poster
+
+:    "Rescuing and integrating data in the face of global change". Understanding Biodiversity Dynamics Symposium, Canberra, AU.
+
+Sep 2011 - Talk
+
+:   "Species distribution models fail to predict observed range shifts of British species from climate". Spatial Ecology and Conservation Conference, Birmingham, UK.
+
+DEPARTMENTAL TALKS (since 2015)
+------------------
+
+Apr 2018
+
+:   "Generalities in community structure between microbes and macro-organisms in the marine lakes of Palau". University of California, Merced, CA, USA.
+
+Mar 2016
+
+:   "Drivers of ecological niche volume and packing in terrestrial vertebrate assemblages across the globe". NatureServe, VA, USA.
+
+Nov 2015
+
+:   "Using disparate historical data sources to understand species' recent and likely future range shifts". Stony Brook University, NY, USA.
+
+Mar 2015
+
+:   "Detection and attribution of species' recent range shifts using disparate historic data sources". University of California, Berkeley, CA, USA.
+
+ACADEMIC SERVICE AND OUTREACH
+----------------
+### Editor ###
+
+2017 - present
+
+:   Guest Associate Editor for [Frontiers in Ecology and Evolution][35], Biogeography and Macroecology section.
+
+:   Editor of topic ["Ecological non-equilibrium in the Anthropocene"][37] in Frontiers in Ecology and Evolution.
+
+### Reviewer ###
+
+Publications 
+
+:   Reviewed for *Trends in Ecology and Evolution*, *Biology Letters*, *Global Change Biology*, *Global Ecology and Biogeography*, *Ecography*, *Methods in Ecology and Evolution*, *Journal of Biogeography*, *Animal Conservation*, *Climate Risk Management*, *Climatic Change*, *Ecology and Evolution*, *IBIS*, *PLoS One*. [Publons profile][10].
+
+Adaptation plans
+
+:   ["Silicon Valley 2.0"][19]. Climate change adaptation assessment. Santa Clara Office of Sustainability, San Francisco, CA, USA. Sep 2014.
+
+Grants
+
+:   Reviewed for *National Science Foundation*. Nov 2015.
+
+Software
+
+:   "HYKL". Bayesian species distribution modeling. Microsoft Research, Cambridge, UK. Jun 2012.
+
+### Co-organizer ###
+
+Workshops 
+
+:   "Big ecological questions: diverse data, new methods". University of California, Berkeley, CA, USA. Oct 2014.
+
+Seminars
+
+:   "Biotic responses to climate change in California". University of California, Berkeley, CA, USA. Apr-Dec 2013.
+
+### Facilitator ###
+
+Workshops
+
+:   [Cross-Disciplinary Statistical Applications in the Anthropocene][34]. SESYNC, MD, USA. Sep 2017.
+
+### Developer ###
+
+Software
+
+:   Published R source code associated with a number of projects on [GitHub][38].
+
+:   Collaborated on [https://holos.berkeley.edu/][15].
+
+Websites
+
+:   Personal research website: [http://giorapacciuolo.com][2].
+
+:   Purvis lab website. Imperial College London, London, UK. From 2010-2012.
+
+REFERENCES
+----------
+
+UC Merced <br> postdoc
+
+:   **Prof Jessica Blois**, jblois@ucmerced.edu, Associate Professor, University of California Merced, CA, USA.
+
+:   **Prof Michael Dawson**, mdawson@ucmerced.edu, Professor, University of California Merced, CA, USA.
+
+NatureServe <br> postdoc
+
+:   **Dr Thomas Brooks**, thomas.brooks@iucn.org. Head, Science and Knowledge, IUCN.
+
+:   **Dr Catherine Graham**, catherine.graham@wsl.ch. Senior Scientist, Swiss Federal Research Institute, CH.
+
+:   **Dr Bruce Young**, bruce_young@natureserve.org. Director, Species Science, NatureServe, VA, USA.
+
+UC Berkeley <br> postdoc
+
+:   **Prof Rosemary Gillespie**, gillespie@berkeley.edu. Professor, University of California Berkeley, CA, USA. 
+    
+Imperial College
+
+:   **Prof Andy Purvis**, andy.purvis@nhm.ac.uk. Research Leader, Natural History Museum, London, UK.
+
+[1]:http://les.ucmerced.edu/
+[2]:http://giorapacciuolo.com
+[3]:http://onlinelibrary.wiley.com/doi/10.1111/gcb.12638/abstract
+[4]:http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12181/abstract
+[5]:http://link.springer.com/article/10.1007/s10531-013-0590-5
+[6]:http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0040212
+[7]:http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2664.2012.02138.x/full
+[8]:http://giorapacciuolo.com/publications.html
+[9]:https://scholar.google.com/citations?user=kLSLO8sAAAAJ&hl=en
+[10]:https://publons.com/author/333635/giovanni-rapacciuolo#profile
+[11]:http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0126524
+[12]:https://github.com/giorap/tv-plots
+[13]:https://github.com/giorap/nodiv
+[14]:http://www.nsf.gov/awardsearch/showAward?AWD_ID=1136586
+[15]:https://holos.berkeley.edu/
+[16]:https://journals.ku.edu/index.php/jbi/article/view/5886/5871
+[17]:http://www.nature.com/nature/journal/v538/n7625/full/538317d.html
+[18]:http://www.sesync.org/immersion-program-participants-2015-2016
+[19]:https://www.sccgov.org/sites/osp/Documents/SV2/1_150803_Final%20Guidebook_W_Appendices.pdf
+[20]:http://www3.imperial.ac.uk/newsandeventspggrp/imperialcollege/naturalsciences/climatechange/newssummary/news_5-2-2010-11-55-34
+[21]:http://globalchange.berkeley.edu/meet-scientist#Gio
+[22]:http://biorxiv.org/content/early/2017/01/26/103507
+[23]:https://swcarpentry.github.io/2014-03-17-ucb/
+[24]:http://gif.berkeley.edu/support/workshop_descriptions.html#rs
+[25]:http://dlab.berkeley.edu/training/working-geospatial-data-r
+[26]:https://drive.google.com/file/d/0BxNqMqesSSmSNjNSRGpLYVoxRlE/view
+[27]:http://cba.anu.edu.au/news-events/understanding-biodiversity-dynamics-using-diverse-data-sources/uses-and-misuses
+[28]:https://aobblog.com/2012/07/conference-botanical-society-of-the-british-isles-20th-21st-september-2012/
+[29]:http://onlinelibrary.wiley.com/doi/10.1002/eap.1569/full
+[30]:https://www.nsf.gov/awardsearch/showAward?AWD_ID=1241255
+[31]:http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.631202
+[32]:http://onlinelibrary.wiley.com/doi/10.1111/geb.12612/full
+[33]:https://link.springer.com/article/10.1007/s10531-017-1399-4
+[34]:https://www.sesync.org/project/propose-a-workshop/cross-disciplinary-statistical-applications-in-the-anthropocene
+[35]:http://loop.frontiersin.org/people/465362/overview
+[36]:http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0185683
+[37]:https://www.frontiersin.org/research-topics/6796/ecological-non-equilibrium-in-the-anthropocene
+[38]:https://github.com/giorap
+[39]:https://globalchange.berkeley.edu/
+[40]:http://rspb.royalsocietypublishing.org/content/285/1872/20172378
+[41]:https://www.cell.com/trends/ecology-evolution/fulltext/S0169-5347(18)30181-2
