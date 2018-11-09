@@ -7,12 +7,12 @@
   </url>
   
   <url>
-    <loc>/giorap.github.io/post/vivamus-lacus-mauris/</loc>
-    <lastmod>2013-06-17T12:00:00+00:00</lastmod>
+    <loc>/giorap.github.io/research/</loc>
   </url>
   
   <url>
-    <loc>/giorap.github.io/service/service3/</loc>
+    <loc>/giorap.github.io/post/vivamus-lacus-mauris/</loc>
+    <lastmod>2013-06-17T12:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -21,7 +21,7 @@
   </url>
   
   <url>
-    <loc>/giorap.github.io/service/service1/</loc>
+    <loc>/giorap.github.io/projects/forecasting_species_distributions/</loc>
   </url>
   
   <url>
@@ -31,17 +31,21 @@
   </url>
   
   <url>
+    <loc>/giorap.github.io/projects/mpas_and_citizen_science/</loc>
+  </url>
+  
+  <url>
+    <loc>/giorap.github.io/projects/conserving_biodiversity_dimensions-/</loc>
+  </url>
+  
+  <url>
     <loc>/giorap.github.io/post/</loc>
     <lastmod>2013-06-17T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/giorap.github.io/service/service4/</loc>
-  </url>
-  
-  <url>
-    <loc>/giorap.github.io/service/</loc>
+    <loc>/giorap.github.io/projects/</loc>
     <priority>0</priority>
   </url>
   
@@ -51,7 +55,7 @@
   </url>
   
   <url>
-    <loc>/giorap.github.io/service/service2/</loc>
+    <loc>/giorap.github.io/projects/biodiversity_in_space_and_time/</loc>
   </url>
   
 </urlset>
