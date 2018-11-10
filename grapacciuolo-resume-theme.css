@@ -1,4 +1,10 @@
-body, td {        
+body {        
+   font-family: 'Helvetica';
+   background-color: white;
+   font-size: 16px;
+}
+
+td {        
    font-family: 'Helvetica';
    background-color: white;
    font-size: 16px;
@@ -69,7 +75,16 @@ a:hover, a:active {
 }
 table {
     width: 100%;
+    background-color: #ebebeb;
 }
+
+ul, li {
+  margin-left: 7px;
+  padding-left: 7px;
+  margin-bottom: 3px;
+  padding-bottom: 3px;
+}
+
 @media print {
    * {
       background: transparent !important;
