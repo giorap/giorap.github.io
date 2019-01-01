@@ -8,12 +8,12 @@ output:
 Giovanni Rapacciuolo, Ph.D. 
 ====================
 
-----------------------------------------------           -------------------------------
-[Life and Environmental Sciences][1]                        **email** giorapac@gmail.com
-University of California, Merced                             **phone** +1 (510) 610-5646
-Merced                                                    **skype** giovanni.rapacciuolo 
-California 95343, USA                                    **www** [giorapacciuolo.com][2]
-----------------------------------------------           -------------------------------
+-------------------------------------------------------- -------------------------------
+[Institute for Biodiversity Science & Sustainability][1]    **email** giorapac@gmail.com
+California Academy of Sciences                               **phone** +1 (510) 610-5646
+San Francisco                                             **skype** giovanni.rapacciuolo 
+California 94118, USA                                    **www** [giorapacciuolo.com][2]
+-------------------------------------------------------- -------------------------------
 
 KEY EXPERTISE
 -------------
@@ -36,7 +36,9 @@ Data Science
 
 Leadership and Management
 
-:   Leadership of international multi-disciplinary and multi-institution teams.
+:   Expertise at the interface between macroecological research and conservation practice.
+
+:   Leadership of international multi-disciplinary and multi-organization teams.
 
 :   Excellent written and oral communication skills as evidenced by record of scientific publications/talks/lectures.
 
@@ -50,8 +52,8 @@ EDUCATION
     
     Title: ["Predicting species' range shifts under global change: when can species distribution models be useful?"][31]    
     
-    *  Modeled distribution responses of British plants, birds and butterflies to recent environmental changes
-    *  Developed methods for testing the prediction accuracy of species distribution models in space and time
+    *  Model distribution responses of British plants, birds and butterflies to recent environmental changes
+    *  Develop methods for testing the prediction accuracy of species distribution models in space and time
     
     Advisors: Prof Andy Purvis (Imperial College London), Dr David Roy (Centre for Ecology and Hydrology)
         
@@ -62,20 +64,30 @@ EDUCATION
  
 PROFESSIONAL EXPERIENCE
 -----------------------
-2017 - present 
+2018 - present
+:   **Research Scientist. California Academy of Sciences, CA, USA**
+    
+    *  Build a framework and tools for taking advantage of community-based science efforts to inform management of coastal biodiversity and Marine Protected Areas in California.
+    *  Lead the preparation of reports to California Fish and Wildlife and California Ocean Protection Council
+    *  Organize, host and run meetings with scientists, conservation practitioners, policimakers, and members of the public to discuss research findings and explore recommendations
+    *  Public and stakeholder outreach within the Academy
+    
+    Advisors: Dr Rebecca Johnson, Dr Alison Young 
+    
+2017 - 2018 
 :   **Postdoctoral Scholar. University of California Merced, CA, USA**
     
-    *  Modeled the drivers of ecological community structure and dynamics in Palau marine lake ecosystems
-    *  Integrated modern ecological survey data with paleoecological data
+    *  Model the drivers of ecological community structure and dynamics in Palau marine lake ecosystems
+    *  Integrate modern ecological survey data with paleoecological data
     
     Advisors: Prof Michael Dawson, Prof Jessica Blois. Project: [NSF Dimensions of Biodiversity Grant][30]
     
 2015 -  2017 
 :   **Biodiversity Postdoctoral Associate. NatureServe, VA, USA** 
     
-    *  Modeled the drivers of species, functional and phylogenetic biodiversity across terrestrial vertebrates
-    *  Analyzed the relationship among biodiversity dimensions in spatial conservation planning
-    *  Projected the future impacts of species extinctions on terrestrial vertebrate biodiversity
+    *  Model the drivers of species, functional and phylogenetic biodiversity across terrestrial vertebrates
+    *  Analyze the relationship among biodiversity dimensions in spatial conservation planning
+    *  Project the future impacts of species extinctions on terrestrial vertebrate biodiversity
     
     Advisors: Dr Bruce Young, Prof Catherine Graham. Project: [NSF Dimensions of Biodiversity Grant][14]
 
@@ -83,8 +95,8 @@ PROFESSIONAL EXPERIENCE
 2013 - 2015 
 :   **Postdoctoral Scholar. University of California Berkeley, CA, USA**      
     
-    *  Modeled the responses of California plants, vertebrates and invertebrates to 20th century climate change
-    *  Collaborated on building an online tool ([https://holos.berkeley.edu/][15]) integrating many spatial and temporal biodiversity data sources to advance understanding of biotic responses to global change
+    *  Model the responses of California plants, vertebrates and invertebrates to 20th century climate change
+    *  Collaborate on building an online tool ([https://holos.berkeley.edu/][15]) integrating many spatial and temporal biodiversity data sources to advance understanding of biotic responses to global change
     
     Advisors: Prof Rosemary Gillespie, Prof Charles Marshall. Project: [Berkeley in Global Change Biology][39]
 
@@ -113,15 +125,15 @@ In review <br> *(drafts available* <br> *upon request)*
 
 :     **Rapacciuolo G**, Beman JM, Schiebelhut LM, Dawson MN. Microbes and macro-invertebrates show parallel beta-diversity but contrasting alpha-diversity patterns in a marine natural experiment. *Proceedings of the Royal Society B*.
 
-:     Radeloff VC [and 17 others, including **Rapacciuolo G**]. The Dynamic Habitat Indices (DHIs) from MODIS and global biodiversity. *Remote Sensing of Environment*.  
-
 Accepted
 
-:     **Rapacciuolo G**, Graham CH, Marin, J, Behm JE, Costa GC, Hedges SB, Helmus MR, Radeloff VC, Young BE, Brooks TM. Species diversity as a surrogate for the conservation of phylogenetic and functional diversity in terrestrial vertebrates across the Americas. *Nature Ecology & Evolution*.
-
-:     **Rapacciuolo G**. Strengthening the contribution of macroecological models to conservation practice. Invited contribution for the 30th anniversary of macroecology series at *Global Ecology and Biogeography*.
+:     Radeloff VC [and 17 others, including **Rapacciuolo G**]. The Dynamic Habitat Indices (DHIs) from MODIS and global biodiversity. *Remote Sensing of Environment*. 
 
 2018
+
+:     **Rapacciuolo G**, Graham CH, Marin, J, Behm JE, Costa GC, Hedges SB, Helmus MR, Radeloff VC, Young BE, Brooks TM. Species diversity as a surrogate for the conservation of phylogenetic and functional diversity in terrestrial vertebrates across the Americas. *Nature Ecology & Evolution* **3**: 53-61. [Find full text][43]
+
+:     **Rapacciuolo G**. Strengthening the contribution of macroecological models to conservation practice. Invited contribution for the Macroecology 30th Anniversary Issue at *Global Ecology and Biogeography* **28**: 54-60. [Find full text][42].
 
 :     Yates KL [and 49 others, including **Rapacciuolo G**]. Outstanding challenges in the transferability of ecological models. *Trends in Ecology and Evolution*. Online early. [Find full text][41].
 
@@ -139,13 +151,13 @@ Accepted
 
 2016
 
-:     Fiorella KJ, **Rapacciuolo G**, Trisos C. (2016) Species loss: learn from health metrics. *Nature (Correspondence)* **538**: 371. [Find full text][17].
+:     Fiorella KJ, **Rapacciuolo G**, Trisos C. Species loss: learn from health metrics. *Nature (Correspondence)* **538**: 371. [Find full text][17].
 
-:     Kelly M, Easterday K, **Rapacciuolo G**, Koo MS, McIntyre P, Thorne J. (2016) Rescuing and sharing historical vegetation data for ecological analysis: The California Vegetation Type Mapping project. *Biodiversity Data Journal* **11**: 40 - 62. [Find full text][16].  
+:     Kelly M, Easterday K, **Rapacciuolo G**, Koo MS, McIntyre P, Thorne J. Rescuing and sharing historical vegetation data for ecological analysis: The California Vegetation Type Mapping project. *Biodiversity Data Journal* **11**: 40 - 62. [Find full text][16].  
 
 2015
 
-:     Pearse WD, Chase MW, Crawley MJ, Dolphin K, Fay MF, Joseph JA, Powney G, Preston CD, **Rapacciuolo G**, Roy DB, and Purvis A (2015) Beyond the EDGE with EDAM: prioritising British plant species according to evolutionary distinctiveness, and accuracy and magnitude of decline. *PLoS One* **10**: e0126524. [Find full text][11].   
+:     Pearse WD, Chase MW, Crawley MJ, Dolphin K, Fay MF, Joseph JA, Powney G, Preston CD, **Rapacciuolo G**, Roy DB, and Purvis A. Beyond the EDGE with EDAM: prioritising British plant species according to evolutionary distinctiveness, and accuracy and magnitude of decline. *PLoS One* **10**: e0126524. [Find full text][11].   
 
 2014
 
@@ -398,7 +410,7 @@ Imperial College
 
 :   **Prof Andy Purvis**, andy.purvis@nhm.ac.uk. Research Leader, Natural History Museum, London, UK.
 
-[1]:http://les.ucmerced.edu/
+[1]:https://www.calacademy.org/scientists
 [2]:http://giorapacciuolo.com
 [3]:http://onlinelibrary.wiley.com/doi/10.1111/gcb.12638/abstract
 [4]:http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12181/abstract
@@ -439,3 +451,5 @@ Imperial College
 [39]:https://globalchange.berkeley.edu/
 [40]:http://rspb.royalsocietypublishing.org/content/285/1872/20172378
 [41]:https://www.cell.com/trends/ecology-evolution/fulltext/S0169-5347(18)30181-2
+[42]:https://onlinelibrary.wiley.com/doi/full/10.1111/geb.12848
+[43]:https://www.nature.com/articles/s41559-018-0744-7

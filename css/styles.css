@@ -30,9 +30,9 @@ body {
   margin-bottom: 0;
 }
 .navbar-default .navbar-brand {
-    font-family: 'Signika';
-    font-size: 24px;
-    font-weight: bold;
+    font-family: 'Source Sans Pro';
+    font-size: 23px;
+    font-weight: 600;
     line-height: 24px;
     padding-top:18px;
     padding-bottom:18px;
@@ -177,8 +177,7 @@ h6,
   color: #333333;
 }
 h1 {
-  font-size: 40px;
-  font-size: 2.5rem;
+  font-size: 32px;
 }
 h2 {
   font-size: 32px;
@@ -189,27 +188,28 @@ h3 {
   font-size: 1.875rem;
 }
 h4 {
-  font-size: 24px;
-  font-size: 1.5rem;
+  font-size: 21px;
 }
 h5 {
-  font-size: 20px;
-  font-size: 1.25rem;
+  font-size: 19px;
+}
+h6 {
+  font-size: 17px;
 }
 a {
-  color: #bd1550;
+  color: #333333;
 }
 a:hover {
-  color: #e93675;
+  color: #4267b2;
 }
 .lead {
   font-weight: 300;
-  font-size: 21px;
-  font-size: 1.3125rem;
+  font-size: 18px;
+  color: #666666;
 }
 .text-msg {
   line-height: 1.7em;
-  color: #b3b3b3;
+  color: #333333;
   font-weight: 300;
   text-transform: capitalize;
   margin-top: -0.23em;
@@ -230,8 +230,8 @@ a:hover {
 
 **********************************************************************/
 #head {
-  background: #f4f4f4 url(../images/bg1.png) top center;
-  color: #7C7C7C;
+  background: #f4f4f4 url(../images/bg_head.png) top center;
+  color: #333333;
   padding: 30px 0 35px 0;
 }
 #head img.img-circle {
@@ -262,10 +262,10 @@ a:hover {
   font-weight: normal;
 }
 #head .tagline a {
-  color: #5E5E5E;
+  color: #333333;
 }
 .home #head {  
-  height: 300px;
+  height: 180px;
 }
 .home #head .title {
   font-size: 30px;
@@ -316,14 +316,15 @@ img {
 }
 .btn-primary {
   color: #fff;
-  background-color: #bd1550;
+  background-color: #4267b2;
+  margin-right: 10px;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active {
   color: #fff;
-  background-color: #e61f65;
+  background-color: #4267b2;
 }
 .btn-action {
   font-weight: bold;
@@ -335,8 +336,8 @@ img {
 .btn-action:focus,
 .btn-action:active,
 .btn-action.active {
-  color: #bd1550;
-  border-color: #bd1550;
+  color: #4267b2;
+  border-color: #4267b2;
 }
 .btn-lg {
   padding: 15px 60px;
@@ -507,6 +508,22 @@ img {
   color: #000000;
   background: none;
 }
+
+/*********************************************************************
+
+
+                                 PUBLICATIONS
+
+
+**********************************************************************/
+.box {
+    padding: 5px 10px 5px 10px;
+    box-shadow: 0 0 0 1px #666666;
+    background: #f3f3f3;
+    max-width: 1020px;
+    margin-left: 15px;
+}
+
 /*********************************************************************
 
 
@@ -522,8 +539,7 @@ img {
   margin: 0px 0 25px;
   text-align: center;
   font-weight: 300;
-  font-size: 36px;
-  font-size: 2.25rem;
+  font-size: 26px;
   letter-spacing: 1px;
   padding-bottom: 5px;
 }

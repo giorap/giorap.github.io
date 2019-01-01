@@ -1,87 +1,223 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Initio - Free, multipurpose html5 template by GetTemplate</title>
-    <link>/giorap.github.io/</link>
-    <description>Recent content on Initio - Free, multipurpose html5 template by GetTemplate</description>
+    <title>Giovanni Rapacciuolo</title>
+    <link>giorap.github.io/</link>
+    <description>Recent content on Giovanni Rapacciuolo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jun 2016 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 Jun 2012 12:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/giorap.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="giorap.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>cv</title>
-      <link>/giorap.github.io/cv/</link>
+      <title>Planning for the Large-Scale Conservation of Biodiversity Dimensions</title>
+      <link>giorap.github.io/projects/conserving_biodiversity_dimensions-/</link>
+      <pubDate>Sun, 17 Jun 2012 12:00:00 +0000</pubDate>
+      
+      <guid>giorap.github.io/projects/conserving_biodiversity_dimensions-/</guid>
+      <description>&lt;p&gt;Given monetary constraints, large-scale biodiversity conservation policies need to be selective with respect to the areas and species they prioritize. Macroecological knowledge can help make those challenging decisions.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Monitoring Marine Protected Areas Using Citizen Science Data</title>
+      <link>giorap.github.io/projects/mpas_and_citizen_science/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/giorap.github.io/cv/</guid>
+      <guid>giorap.github.io/projects/mpas_and_citizen_science/</guid>
+      <description>&lt;p&gt;Citizen science can generate biodiversity data at scales intractable for other approaches. We are building the capacity to use citizen science observations to monitor Marine Protected Areas across California.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Understanding Past Distribution Changes in Species and Communities</title>
+      <link>giorap.github.io/projects/understanding_past_changes/</link>
+      <pubDate>Mon, 17 Jun 2013 12:00:00 +0000</pubDate>
+      
+      <guid>giorap.github.io/projects/understanding_past_changes/</guid>
+      <description>&lt;p&gt;Documenting and understanding how species and ecosystems have responded to environmental changes in the past is critical to improving our ability to predict their likely future responses.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Improving Predictions of Species&#39; Future Distribution Changes</title>
+      <link>giorap.github.io/projects/forecasting_species_distributions/</link>
+      <pubDate>Fri, 17 Jun 2011 12:00:00 +0000</pubDate>
+      
+      <guid>giorap.github.io/projects/forecasting_species_distributions/</guid>
+      <description>&lt;p&gt;A large number of statistical approaches are being developed to forecast the potential future responses of species and communities to environmental change. But how good are those predictions?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>cv</title>
+      <link>giorap.github.io/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>giorap.github.io/cv/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>contact</title>
-      <link>/giorap.github.io/about/</link>
+      <title>Understanding How Biodiversity is Distributed in Space and Time</title>
+      <link>giorap.github.io/projects/biodiversity_in_space_and_time/</link>
+      <pubDate>Mon, 17 Jun 2013 12:00:00 +0000</pubDate>
+      
+      <guid>giorap.github.io/projects/biodiversity_in_space_and_time/</guid>
+      <description>&lt;p&gt;Understanding how and why biodiversity is distributed the way it is across space and time is key to generating reliable predictions of biodiversity in unexplored regions or future time periods.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Biosketch</title>
+      <link>giorap.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/giorap.github.io/about/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam beatae soluta accusantium iusto nihil nesciunt unde veniam magnam repudiandae sapiente.
-Necessitatibus Velit, odit, eius, libero unde impedit quaerat dolorem assumenda alias consequuntur optio quae maiores ratione tempore sit aliquid architecto eligendi pariatur ab soluta doloremque dicta aspernatur labore quibusdam dolore corrupti quod inventore. Maiores, repellat, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam!</description>
+      <guid>giorap.github.io/about/</guid>
+      <description>Giovanni Rapacciuolo is a biodiversity data scientist and macroecologist. His work at the macroecology–conservation practice interface takes advantage of emerging approaches for analyzing and visualizing big datasets to improve our predictive understanding of large-scale biodiversity change and support conservation decisions. Giovanni is currently a Research Scientist at the California Academy of Sciences in San Francisco.
+Find me on
+Twitter &amp;ndash; @giorapac | LinkedIn | Google Scholar | GitHub | Research Gate | Publons</description>
     </item>
     
     <item>
-      <title>New Project</title>
-      <link>/giorap.github.io/projects/new_project1/</link>
-      <pubDate>Fri, 17 Jun 2016 12:00:00 +0000</pubDate>
+      <title>Species diversity as a surrogate for conservation of phylogenetic and functional diversity in terrestrial vertebrates across the Americas</title>
+      <link>giorap.github.io/publication/surrogacy_among_biodiversity_dimensions/</link>
+      <pubDate>Mon, 10 Dec 2018 00:00:00 -0800</pubDate>
       
-      <guid>/giorap.github.io/projects/new_project1/</guid>
-      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;</description>
+      <guid>giorap.github.io/publication/surrogacy_among_biodiversity_dimensions/</guid>
+      <description>Related materials Knowledge of species diversity may be sufficient to preserve other dimensions of biodiversity, Nature Ecology &amp;amp; Evolution Blog</description>
     </item>
     
     <item>
-      <title>Monitoring Marine Protected Areas Using Community-Based Data</title>
-      <link>/giorap.github.io/projects/mpas_and_citizen_science/</link>
-      <pubDate>Wed, 17 Jun 2015 12:00:00 +0000</pubDate>
+      <title>Strengthening the contribution of macroecological models to conservation practice</title>
+      <link>giorap.github.io/publication/macroecology_conservation_practice_interface/</link>
+      <pubDate>Sun, 25 Nov 2018 00:00:00 -0800</pubDate>
       
-      <guid>/giorap.github.io/projects/mpas_and_citizen_science/</guid>
-      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;</description>
+      <guid>giorap.github.io/publication/macroecology_conservation_practice_interface/</guid>
+      <description>Related materials It’s time to strengthen the macroecology–conservation practice interface, Mongabay.com Commentary</description>
     </item>
     
     <item>
-      <title>Understanding Biodiversity Changes in Space and Time</title>
-      <link>/giorap.github.io/projects/biodiversity_in_space_and_time/</link>
-      <pubDate>Mon, 17 Jun 2013 12:00:00 +0000</pubDate>
+      <title>Outstanding challenges in the transferability of ecological models</title>
+      <link>giorap.github.io/publication/outstanding_challenges_in_transferability/</link>
+      <pubDate>Thu, 25 Oct 2018 00:00:00 -0700</pubDate>
       
-      <guid>/giorap.github.io/projects/biodiversity_in_space_and_time/</guid>
-      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;</description>
+      <guid>giorap.github.io/publication/outstanding_challenges_in_transferability/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Vivamus Lacus Mauris</title>
-      <link>/giorap.github.io/posts/vivamus-lacus-mauris/</link>
-      <pubDate>Mon, 17 Jun 2013 12:00:00 +0000</pubDate>
+      <title>Evolutionary time drives global tetrapod diversity</title>
+      <link>giorap.github.io/publication/evolutionary_time_and_tetrapod_diversity/</link>
+      <pubDate>Wed, 07 Feb 2018 00:00:00 -0800</pubDate>
       
-      <guid>/giorap.github.io/posts/vivamus-lacus-mauris/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, rerum voluptates veniam. Esse, nihil, ea, eaque, quos cum id tempore voluptate nisi nemo debitis impedit officiis culpa repellat voluptatum in aperiam error quo minima ratione ex pariatur maxime eligendi dolore nesciunt molestiae enim alias atque commodi delectus perferendis. Blanditiis, iste placeat nostrum in! Eligendi, omnis, unde, quos ullam nesciunt molestias quis a saepe nisi distinctio molestiae voluptate obcaecati officiis consequuntur similique aspernatur rerum sequi placeat iure quaerat itaque libero officia recusandae ad corrupti aperiam cum beatae.</description>
+      <guid>giorap.github.io/publication/evolutionary_time_and_tetrapod_diversity/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Planning for the Large-Scale Conservation of Biodiversity Dimensions</title>
-      <link>/giorap.github.io/projects/conserving_biodiversity_dimensions-/</link>
-      <pubDate>Sun, 17 Jun 2012 12:00:00 +0000</pubDate>
+      <title>Detecting long-term occupancy changes in Californian odonates from natural history and citizen science records</title>
+      <link>giorap.github.io/publication/detecting_california_odonata_occupancy_changes/</link>
+      <pubDate>Thu, 30 Nov 2017 00:00:00 -0800</pubDate>
       
-      <guid>/giorap.github.io/projects/conserving_biodiversity_dimensions-/</guid>
-      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;</description>
+      <guid>giorap.github.io/publication/detecting_california_odonata_occupancy_changes/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Improving Forecasts of Change in Species Distributions</title>
-      <link>/giorap.github.io/projects/forecasting_species_distributions/</link>
-      <pubDate>Fri, 17 Jun 2011 12:00:00 +0000</pubDate>
+      <title>Are pollinating hawk moths declining in the Northeastern United States? An analysis of collection records</title>
+      <link>giorap.github.io/publication/northeast_hawkmoth_changes/</link>
+      <pubDate>Thu, 05 Oct 2017 00:00:00 -0700</pubDate>
       
-      <guid>/giorap.github.io/projects/forecasting_species_distributions/</guid>
-      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;</description>
+      <guid>giorap.github.io/publication/northeast_hawkmoth_changes/</guid>
+      <description>Related materials The Silence of Bugs, New York Times Opinion</description>
+    </item>
+    
+    <item>
+      <title>The signature of human pressure history on the biogeography of body mass in tetrapods</title>
+      <link>giorap.github.io/publication/human_pressure_signature_on_body_mass/</link>
+      <pubDate>Sat, 30 Sep 2017 00:00:00 -0700</pubDate>
+      
+      <guid>giorap.github.io/publication/human_pressure_signature_on_body_mass/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Museum specimen data reveal emergence of a plant disease may be linked to increases in the insect vector population</title>
+      <link>giorap.github.io/publication/museum_records_reveal_pest_vector_emergence/</link>
+      <pubDate>Sat, 30 Sep 2017 00:00:00 -0700</pubDate>
+      
+      <guid>giorap.github.io/publication/museum_records_reveal_pest_vector_emergence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Species loss: learn from health metrics</title>
+      <link>giorap.github.io/publication/species_loss_health_metrics/</link>
+      <pubDate>Sun, 30 Oct 2016 00:00:00 -0700</pubDate>
+      
+      <guid>giorap.github.io/publication/species_loss_health_metrics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rescuing and sharing historical vegetation data for ecological analysis: The California Vegetation Type Mapping project</title>
+      <link>giorap.github.io/publication/vtm_mapping_project/</link>
+      <pubDate>Sun, 30 Oct 2016 00:00:00 -0700</pubDate>
+      
+      <guid>giorap.github.io/publication/vtm_mapping_project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beyond the EDGE with EDAM: prioritising British plant species according to evolutionary distinctiveness, and accuracy and magnitude of decline</title>
+      <link>giorap.github.io/publication/edam_conservation_prioritization/</link>
+      <pubDate>Sat, 30 May 2015 00:00:00 -0700</pubDate>
+      
+      <guid>giorap.github.io/publication/edam_conservation_prioritization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beyond a warming fingerprint: individualistic biogeographic responses to heterogeneous climate change in California</title>
+      <link>giorap.github.io/publication/individualistic_california_range_shifts/</link>
+      <pubDate>Mon, 30 Jun 2014 00:00:00 -0700</pubDate>
+      
+      <guid>giorap.github.io/publication/individualistic_california_range_shifts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temporal validation plots: quantifying how well correlative species distribution models predict species’ range changes over time</title>
+      <link>giorap.github.io/publication/temporal_validation_plots/</link>
+      <pubDate>Fri, 30 May 2014 00:00:00 -0700</pubDate>
+      
+      <guid>giorap.github.io/publication/temporal_validation_plots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A phylogenetically-informed trait-based analysis of range change in the vascular plant flora of Britain</title>
+      <link>giorap.github.io/publication/trait_correlates_of_british_plant_changes/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 -0800</pubDate>
+      
+      <guid>giorap.github.io/publication/trait_correlates_of_british_plant_changes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Climatic associations of British species distributions show good transferability in time but low predictive accuracy for range change</title>
+      <link>giorap.github.io/publication/climatic_associations_do_not_predict_change/</link>
+      <pubDate>Mon, 30 Jul 2012 00:00:00 -0700</pubDate>
+      
+      <guid>giorap.github.io/publication/climatic_associations_do_not_predict_change/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Population density but not stability can be predicted from species distribution models</title>
+      <link>giorap.github.io/publication/population_density_and_sdms/</link>
+      <pubDate>Mon, 30 Apr 2012 00:00:00 -0700</pubDate>
+      
+      <guid>giorap.github.io/publication/population_density_and_sdms/</guid>
+      <description></description>
     </item>
     
   </channel>
