@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Giovanni Rapacciuolo</title>
-    <link>giorap.github.io/projects/</link>
+    <link>/projects/</link>
     <description>Recent content in Projects on Giovanni Rapacciuolo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 17 Jun 2012 12:00:00 +0000</lastBuildDate>
     
-	<atom:link href="giorap.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Planning for the Large-Scale Conservation of Biodiversity Dimensions</title>
-      <link>giorap.github.io/projects/conserving_biodiversity_dimensions-/</link>
+      <link>/projects/conserving_biodiversity_dimensions-/</link>
       <pubDate>Sun, 17 Jun 2012 12:00:00 +0000</pubDate>
       
-      <guid>giorap.github.io/projects/conserving_biodiversity_dimensions-/</guid>
+      <guid>/projects/conserving_biodiversity_dimensions-/</guid>
       <description>&lt;p&gt;Given monetary constraints, large-scale biodiversity conservation policies need to be selective with respect to the areas and species they prioritize. Macroecological knowledge can help make those challenging decisions.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Monitoring Marine Protected Areas Using Citizen Science Data</title>
-      <link>giorap.github.io/projects/mpas_and_citizen_science/</link>
+      <link>/projects/mpas_and_citizen_science/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>giorap.github.io/projects/mpas_and_citizen_science/</guid>
+      <guid>/projects/mpas_and_citizen_science/</guid>
       <description>&lt;p&gt;Citizen science can generate biodiversity data at scales intractable for other approaches. We are building the capacity to use citizen science observations to monitor Marine Protected Areas across California.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Understanding Past Distribution Changes in Species and Communities</title>
-      <link>giorap.github.io/projects/understanding_past_changes/</link>
+      <link>/projects/understanding_past_changes/</link>
       <pubDate>Mon, 17 Jun 2013 12:00:00 +0000</pubDate>
       
-      <guid>giorap.github.io/projects/understanding_past_changes/</guid>
+      <guid>/projects/understanding_past_changes/</guid>
       <description>&lt;p&gt;Documenting and understanding how species and ecosystems have responded to environmental changes in the past is critical to improving our ability to predict their likely future responses.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Improving Predictions of Species&#39; Future Distribution Changes</title>
-      <link>giorap.github.io/projects/forecasting_species_distributions/</link>
+      <link>/projects/forecasting_species_distributions/</link>
       <pubDate>Fri, 17 Jun 2011 12:00:00 +0000</pubDate>
       
-      <guid>giorap.github.io/projects/forecasting_species_distributions/</guid>
+      <guid>/projects/forecasting_species_distributions/</guid>
       <description>&lt;p&gt;A large number of statistical approaches are being developed to forecast the potential future responses of species and communities to environmental change. But how good are those predictions?&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Understanding How Biodiversity is Distributed in Space and Time</title>
-      <link>giorap.github.io/projects/biodiversity_in_space_and_time/</link>
+      <link>/projects/biodiversity_in_space_and_time/</link>
       <pubDate>Mon, 17 Jun 2013 12:00:00 +0000</pubDate>
       
-      <guid>giorap.github.io/projects/biodiversity_in_space_and_time/</guid>
+      <guid>/projects/biodiversity_in_space_and_time/</guid>
       <description>&lt;p&gt;Understanding how and why biodiversity is distributed the way it is across space and time is key to generating reliable predictions of biodiversity in unexplored regions or future time periods.&lt;/p&gt;</description>
     </item>
     
