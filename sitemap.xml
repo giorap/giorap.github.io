@@ -35,6 +35,11 @@
   </url>
   
   <url>
+    <loc>/publication/dhis_and_biodiversity/</loc>
+    <lastmod>2019-03-01T00:00:00-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication/surrogacy_among_biodiversity_dimensions/</loc>
     <lastmod>2018-12-10T00:00:00-08:00</lastmod>
   </url>
@@ -139,6 +144,12 @@
   </url>
   
   <url>
+    <loc>/tags/biodiversity-conservation-global-modis-phenology-productivity-remote-sensing/</loc>
+    <lastmod>2019-03-01T00:00:00-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/biodiversity-conservation-planning-species-diversity-phylogenetic-diversity-functional-diversity-surrogacy-terrestrial-vertebrates-americas/</loc>
     <lastmod>2018-12-10T00:00:00-08:00</lastmod>
     <priority>0</priority>
@@ -205,7 +216,7 @@
   
   <url>
     <loc>/publication/</loc>
-    <lastmod>2018-12-10T00:00:00-08:00</lastmod>
+    <lastmod>2019-03-01T00:00:00-08:00</lastmod>
     <priority>0</priority>
   </url>
   

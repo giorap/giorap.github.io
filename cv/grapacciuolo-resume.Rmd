@@ -119,15 +119,15 @@ PUBLICATIONS
 
 #### [Google Scholar profile][9] | [Altmetrics data][8]
 
-In review <br> *(drafts available* <br> *upon request)*
+Submitted <br> *(drafts available* <br> *upon request)*
 
 :     **Rapacciuolo G**, Blois J. Understanding community dynamics in space and time: integrating data and methods in light of theory. *Ecography*.
 
 :     **Rapacciuolo G**, Beman JM, Schiebelhut LM, Dawson MN. Microbes and macro-invertebrates show parallel beta-diversity but contrasting alpha-diversity patterns in a marine natural experiment. *Proceedings of the Royal Society B*.
 
-Accepted
+2019
 
-:     Radeloff VC [and 17 others, including **Rapacciuolo G**]. The Dynamic Habitat Indices (DHIs) from MODIS and global biodiversity. *Remote Sensing of Environment*. 
+:     Radeloff VC [and 17 others, including **Rapacciuolo G**]. The Dynamic Habitat Indices (DHIs) from MODIS and global biodiversity. *Remote Sensing of Environment*. **222**: 204-214. [Find full text][44]
 
 2018
 
@@ -453,3 +453,4 @@ Imperial College
 [41]:https://www.cell.com/trends/ecology-evolution/fulltext/S0169-5347(18)30181-2
 [42]:https://onlinelibrary.wiley.com/doi/full/10.1111/geb.12848
 [43]:https://www.nature.com/articles/s41559-018-0744-7
+[44]:https://www.sciencedirect.com/science/article/pii/S0034425718305625
