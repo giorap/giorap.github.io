@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Data analysis basics</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link rel="shortcut icon" href="favicon/favicon.ico">
+<link rel="icon" sizes="16x16 32x32 64x64" href="favicon/favicon.ico">
+<link rel="icon" type="image/png" sizes="196x196" href="favicon/favicon-192.png">
+<link rel="icon" type="image/png" sizes="160x160" href="favicon/favicon-160.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96.png">
+<link rel="icon" type="image/png" sizes="64x64" href="favicon/favicon-64.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16.png">
+<link rel="apple-touch-icon" href="favicon/favicon-57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="favicon/favicon-114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="favicon/favicon-72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="favicon/favicon-144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="favicon/favicon-60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="favicon/favicon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="favicon/favicon-76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="favicon/favicon-152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/favicon-180.png">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="msapplication-TileImage" content="favicon/favicon-144.png">
+<meta name="msapplication-config" content="favicon/browserconfig.xml">
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+<script>
+  $( function() {
+  $( ".accordion" ).accordion({
+      heightStyle: "content",
+      active: false,
+      collapsible: true
+    });
+  } );
+</script>
+
+<script>
+  <!-- search menu pop-up --->
+  $(function() {
+    function slideToggle() {
+      $("#search-box").toggle("slide", 500);
+  };
+  $("#search-icon").on("click", function() {
+  slideToggle();
+  });
+  });
+</script>
+
+
+<!-- add  Algolia DocSearch -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
+
+<!-- Motomo analytics -->
+
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://datacarpentry.matomo.cloud/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css" data-origin="pandoc">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+
+</style>
+<script>
+// apply pandoc div.sourceCode style to pre.sourceCode instead
+(function() {
+  var sheets = document.styleSheets;
+  for (var i = 0; i < sheets.length; i++) {
+    if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
+    try { var rules = sheets[i].cssRules; } catch (e) { continue; }
+    for (var j = 0; j < rules.length; j++) {
+      var rule = rules[j];
+      // check if there is a div.sourceCode rule
+      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") continue;
+      var style = rule.style.cssText;
+      // check if color or background-color is set
+      if (rule.style.color === '' || rule.style.backgroundColor === '') continue;
+      // replace div.sourceCode by a pre.sourceCode rule
+      sheets[i].deleteRule(j);
+      sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
+    }
+  }
+})();
+</script>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+<li>
+  <a href="01-getting-started-with-R.html">Getting started with R</a>
+</li>
+<li>
+  <a href="02-programming-concepts.html">Programming concepts</a>
+</li>
+<li>
+  <a href="02-data-analysis.html">Data analysis basics</a>
+</li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+	<li class="search">
+	  <input id="search-box" type="text"  placeholder="Search...">
+	  <input type="submit">
+	</li>
+	<li class="search">
+	  <span id ="search-icon"><i class="fa fa-search fa-lg"></i></span>
+	</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Data analysis basics</h1>
+
+</div>
+
+
+<div id="the-working-directory" class="section level2">
+<h2>The working directory</h2>
+<p>R has a powerful notion of the <strong>working directory</strong>. This is where R looks for files that you ask it to load, and where it will put any files that you ask it to save. RStudio shows your current working directory at the top of the console and you can print this out in R code by running <code>getwd()</code>:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">getwd</span>()
+<span class="co">#&gt; [1] &quot;C:/Users/grapacciuolo/Documents&quot;</span></code></pre></div>
+<p>The working directory is an important concept to understand. It is the place from where R will be looking for and saving the files. When you write code for your project, it should refer to files in relation to the root of your working directory and only need files within this structure.</p>
+<p>It is good practice to keep a set of related data, analyses, and text self-contained in the <strong>working directory</strong>. All of the scripts within this folder can then use <em>relative paths</em> to files that indicate where inside the project a file is located (as opposed to absolute paths, which point to where a file is on a specific computer). Working this way makes it a lot easier to move your project around on your computer and share it with others without worrying about whether or not the underlying scripts will still work.</p>
+</div>
+<div id="r-studio-projects" class="section level2">
+<h2>R Studio Projects</h2>
+<p>RStudio provides a helpful set of tools to do this through its “Projects” interface, which not only creates a working directory for you, but also remembers its location (allowing you to quickly navigate to it) and optionally preserves custom settings and open files to make it easier to resume work after a break. Go through the steps for creating an “R Project” for this tutorial below.</p>
+<ol style="list-style-type: decimal">
+<li>Start RStudio.</li>
+<li>Under the <code>File</code> menu, click on <code>New Project</code>. Choose <code>New Directory</code>, then <code>New Project</code>.</li>
+<li>Enter a name for this new folder (or “directory”), and choose a convenient location for it. This will be your <strong>working directory</strong> for the rest of the day (e.g., <code>~/CalAcademy-R-intro-project</code>).</li>
+<li>Click on <code>Create Project</code>.</li>
+</ol>
+<p>Using RStudio projects makes this easy and ensures that your working directory is set properly. If you need to check it, you can use <code>getwd()</code>. If for some reason your working directory is not what it should be, you can change it in the RStudio interface by navigating in the file browser where your working directory should be, and clicking on the blue gear icon “More”, and select “Set As Working Directory”. Alternatively you can use <code>setwd(&quot;/path/to/working/directory&quot;)</code> to reset your working directory. However, your scripts should not include this line because it will fail on someone else’s computer.</p>
+<div id="organizing-your-working-directory" class="section level3">
+<h3>Organizing your working directory</h3>
+<p>Using a consistent folder structure across your projects will help keep things organized, and will also make it easy to find/file things in the future. This can be especially helpful when you have multiple projects. In general, you may create directories (folders) for <strong>code</strong>, <strong>data</strong>, and <strong>docs</strong>.</p>
+<ul>
+<li><strong><code>data/</code></strong> Use this folder to store your raw data and intermediate datasets you may create for the need of a particular analysis. For the sake of transparency and <a href="https://en.wikipedia.org/wiki/Provenance">provenance</a>, you should <em>always</em> keep a copy of your raw data accessible and do as much of your data cleanup and preprocessing programmatically (i.e., with scripts, rather than manually) as possible. Separating raw data from processed data is also a good idea. For example, you could have files <code>data/raw/tree_survey.plot1.txt</code> and <code>...plot2.txt</code> kept separate from a <code>data/processed/tree.survey.csv</code> file generated by the <code>scripts/01.preprocess.tree_survey.R</code> script.</li>
+<li><strong><code>code/</code></strong> This would be the location to keep your R scripts for different analyses or plotting, and potentially a separate folder for your functions.</li>
+<li><strong><code>docs/</code></strong> This would be a place to keep outlines, drafts, and other text.</li>
+<li><strong><code>figures/</code></strong> This would be a place to keep all graphic outputs generated.</li>
+<li><strong><code>outputs/</code></strong> This would be a place to keep all non-graphic outputs generated (e.g. tables and other R objects).</li>
+</ul>
+<p>You may want additional directories or subdirectories depending on your project needs, but these should form the backbone of your working directory.</p>
+<p>For this workshop, we will need a <code>data/</code> folder to store our raw data, a <code>code/</code> folder to store our R scripts, <code>outputs/</code> to export data and other objects, and <code>figures/</code> folder for the figures that we will save.</p>
+<ul>
+<li><p>A data folder with the data we will be analyzing already exists in the “R_workshops-Cal_Academy-Apr2019” root folder. You can copy this folder directly to your newly created working directory (e.g., <code>~/CalAcademy-R-intro</code>) by selecting the data folder in the bottom right R Studio panel (by ticking the square box on the left of the folder name), then clicking on “More” under the <code>Files</code> tab, then “Copy to”, and navigate to your newly created working directory</p></li>
+<li><p>Next, to create additional folders in your directory, under the <code>Files</code> tab on the right of the screen, click on <code>New Folder</code> and create a folder named <code>code</code> within your newly created working directory (e.g., <code>~/CalAcademy-R-intro/code</code>). (Alternatively, type <code>dir.create(&quot;data&quot;)</code> at your R console.) Repeat these operations to create a <code>code/</code>, <code>outputs/</code> and <code>figures</code> folders.</p></li>
+</ul>
+</div>
+</div>
+<div id="importing-data" class="section level2">
+<h2>Importing data</h2>
+<p>We are now ready to have a look at some data! We are going to be exploring iNaturalist data collected for the 2018 City Nature Challenge in the cities of San Francisco and Los Angeles (nope… no particular reason - just two random cities!).</p>
+<p>To import the data, we will use the read.csv function:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">CNC_2018_observations &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&quot;data/CNC-2018-observations.csv&quot;</span>, <span class="dt">header=</span><span class="ot">TRUE</span>)</code></pre></div>
+<p>This statement doesn’t produce any output because, as you might recall, assignments don’t display anything. If we want to check that our data has been loaded, we can see the contents of the data frame by typing its name: <code>CNC_2018_observations</code>.</p>
+<p>Wow… that was a lot of output. At least it means the data loaded properly. Let’s check the top (the first 6 lines) of this data frame using the function <code>head()</code>:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">head</span>(CNC_2018_observations)</code></pre></div>
+<pre><code>#&gt;         id observed_on        time_observed_at   user_login quality_grade
+#&gt; 1 11421522  2018-04-30 2018-04-30 23:05:01 UTC parallelbear        casual
+#&gt; 2 11478879  2018-04-27 2018-04-27 07:01:10 UTC       tiwane      needs_id
+#&gt; 3 11478904  2018-04-27 2018-04-27 07:02:28 UTC       tiwane      research
+#&gt; 4 11478940  2018-04-27 2018-04-27 07:03:19 UTC       tiwane      research
+#&gt; 5 11478955  2018-04-27 2018-04-27 07:03:47 UTC       tiwane      research
+#&gt; 6 11479038  2018-04-27 2018-04-27 07:02:17 UTC   rebeccafay      research
+#&gt;            city latitude longitude positional_accuracy
+#&gt; 1 San Francisco 37.40257 -122.0974                 298
+#&gt; 2 San Francisco 37.82117 -122.3494                  25
+#&gt; 3 San Francisco 37.89519 -122.3392                  65
+#&gt; 4 San Francisco 37.85024 -122.2736                  12
+#&gt; 5 San Francisco 37.89325 -122.2603                  24
+#&gt; 6 San Francisco 37.80116 -122.4318                  50
+#&gt;   coordinates_obscured       scientific_name           common_name
+#&gt; 1                false  Magnolia grandiflora     southern magnolia
+#&gt; 2                 true          Chironomidae     Non-biting Midges
+#&gt; 3                 true  Clogmia albipunctata   Bathroom Moth Midge
+#&gt; 4                 true             Poa annua   Annual Meadow-grass
+#&gt; 5                 true      Senecio vulgaris      common groundsel
+#&gt; 6                false Armadillidium vulgare Common Pill Woodlouse
+#&gt;   taxon_kingdom_name taxon_phylum_name taxon_class_name taxon_order_name
+#&gt; 1            Plantae      Tracheophyta    Magnoliopsida      Magnoliales
+#&gt; 2           Animalia        Arthropoda          Insecta          Diptera
+#&gt; 3           Animalia        Arthropoda          Insecta          Diptera
+#&gt; 4            Plantae      Tracheophyta       Liliopsida           Poales
+#&gt; 5            Plantae      Tracheophyta    Magnoliopsida        Asterales
+#&gt; 6           Animalia        Arthropoda     Malacostraca          Isopoda
+#&gt;   taxon_family_name taxon_genus_name    taxon_species_name
+#&gt; 1      Magnoliaceae         Magnolia  Magnolia grandiflora
+#&gt; 2      Chironomidae                                       
+#&gt; 3       Psychodidae          Clogmia  Clogmia albipunctata
+#&gt; 4           Poaceae              Poa             Poa annua
+#&gt; 5        Asteraceae          Senecio      Senecio vulgaris
+#&gt; 6   Armadillidiidae    Armadillidium Armadillidium vulgare</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">## Try also
+<span class="kw">View</span>(CNC_2018_observations)</code></pre></div>
+<blockquote>
+<h3 id="note">Note</h3>
+<p><code>read.csv</code> assumes that fields are delineated by commas, however, in several countries, the comma is used as a decimal separator and the semicolon (;) is used as a field delineator. If you want to read in this type of files in R, you can use the <code>read.csv2</code> function. It behaves exactly like <code>read.csv</code> but uses different parameters for the decimal and the field separators. If you are working with another format, they can be both specified by the user. Check out the help for <code>read.csv()</code> by typing <code>?read.csv</code> to learn more. There is also the <code>read.delim()</code> for in tab separated data files. It is important to note that all of these functions are actually wrapper functions for the main <code>read.table()</code> function with different arguments. As such, the CNC_2018_observations data above could have also been loaded by using <code>read.table()</code> with the separation argument as <code>,</code>. The code is as follows: <code>CNC_2018_observations &lt;- read.table(file=&quot;data/CNC_2018_observations.csv&quot;, sep=&quot;,&quot;, header=TRUE)</code>. The header argument has to be set to TRUE to be able to read the headers as by default <code>read.table()</code> has the header argument set to FALSE.</p>
+</blockquote>
+</div>
+<div id="what-are-data-frames" class="section level2">
+<h2>What are data frames?</h2>
+<p>Data frames are the <em>de facto</em> data structure for most tabular data, and what we use for statistics and plotting.</p>
+<p>A data frame can be created by hand, but most commonly they are generated by the functions <code>read.csv()</code> or <code>read.table()</code>; in other words, when importing spreadsheets from your hard drive (or the web).</p>
+<p>A data frame is the representation of data in the format of a table where the columns are vectors that all have the same length. Because columns are vectors, each column must contain a single type of data (e.g., characters, integers, factors). For example, here is a figure depicting a data frame comprising a numeric, a character, and a logical vector.</p>
+<div class="figure">
+<img src="img/data-frame.svg" />
+
+</div>
+<p>We can see this when inspecting the <b>str</b>ucture of a data frame with the function <code>str()</code>:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">str</span>(CNC_2018_observations)</code></pre></div>
+</div>
+<div id="inspecting-data.frame-objects" class="section level2">
+<h2>Inspecting <code>data.frame</code> Objects</h2>
+<p>We already saw how the functions <code>head()</code> and <code>str()</code> can be useful to check the content and the structure of a data frame. Here is a non-exhaustive list of functions to get a sense of the content/structure of the data. Let’s try them out!</p>
+<ul>
+<li>Size:
+<ul>
+<li><code>dim(CNC_2018_observations)</code> - returns a vector with the number of rows in the first element, and the number of columns as the second element (the <strong>dim</strong>ensions of the object)</li>
+<li><code>nrow(CNC_2018_observations)</code> - returns the number of rows</li>
+<li><code>ncol(CNC_2018_observations)</code> - returns the number of columns</li>
+</ul></li>
+<li>Content:
+<ul>
+<li><code>head(CNC_2018_observations)</code> - shows the first 6 rows</li>
+<li><code>tail(CNC_2018_observations)</code> - shows the last 6 rows</li>
+</ul></li>
+<li>Names:
+<ul>
+<li><code>names(CNC_2018_observations)</code> - returns the column names (synonym of <code>colnames()</code> for <code>data.frame</code> objects)</li>
+<li><code>rownames(CNC_2018_observations)</code> - returns the row names</li>
+</ul></li>
+<li>Summary:
+<ul>
+<li><code>str(CNC_2018_observations)</code> - structure of the object and information about the class, length and content of each column</li>
+<li><code>summary(CNC_2018_observations)</code> - summary statistics for each column</li>
+</ul></li>
+</ul>
+<p>Note: most of these functions are “generic”, they can be used on other types of objects besides <code>data.frame</code>.</p>
+</div>
+<div id="indexing-and-subsetting-data-frames" class="section level2">
+<h2>Indexing and subsetting data frames</h2>
+<p>Our CNC_2018_observations data frame has rows and columns (it has 2 dimensions), if we want to extract some specific data from it, we need to specify the “coordinates” we want from it. Row numbers come first, followed by column numbers. However, note that different ways of specifying these coordinates lead to results with different classes.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># first element in the first column of the data frame (as a vector)</span>
+CNC_2018_observations[<span class="dv">1</span>, <span class="dv">1</span>]   
+<span class="co"># first element in the 6th column (as a vector)</span>
+CNC_2018_observations[<span class="dv">1</span>, <span class="dv">6</span>]   
+<span class="co"># first column of the data frame (as a vector)</span>
+CNC_2018_observations[, <span class="dv">1</span>]    
+<span class="co"># first column of the data frame (as a data.frame)</span>
+CNC_2018_observations[<span class="dv">1</span>]      
+<span class="co"># first three elements in the 7th column (as a vector)</span>
+CNC_2018_observations[<span class="dv">1</span><span class="op">:</span><span class="dv">3</span>, <span class="dv">7</span>] 
+<span class="co"># the 3rd row of the data frame (as a data.frame)</span>
+CNC_2018_observations[<span class="dv">3</span>, ]    
+<span class="co"># equivalent to head_CNC_2018_observations &lt;- head(CNC_2018_observations)</span>
+head_CNC_2018_observations &lt;-<span class="st"> </span>CNC_2018_observations[<span class="dv">1</span><span class="op">:</span><span class="dv">6</span>, ] </code></pre></div>
+<p>You can also exclude certain indices of a data frame using the “<code>-</code>” sign:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">CNC_2018_observations[, <span class="op">-</span><span class="dv">1</span>]          <span class="co"># The whole data frame, except the first column</span>
+CNC_2018_observations[<span class="op">-</span><span class="kw">c</span>(<span class="dv">7</span><span class="op">:</span><span class="dv">34786</span>), ] <span class="co"># Equivalent to head(CNC_2018_observations)</span></code></pre></div>
+<p>Data frames can be subset by calling indices (as shown previously), but also by calling their column names directly:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">CNC_2018_observations[<span class="st">&quot;scientific_name&quot;</span>]       <span class="co"># Result is a data.frame</span>
+CNC_2018_observations[, <span class="st">&quot;scientific_name&quot;</span>]     <span class="co"># Result is a vector</span>
+CNC_2018_observations[[<span class="st">&quot;scientific_name&quot;</span>]]     <span class="co"># Result is a vector</span>
+CNC_2018_observations<span class="op">$</span>scientific_name          <span class="co"># Result is a vector</span></code></pre></div>
+<p>In RStudio, you can use the autocompletion feature to get the full and correct names of the columns.</p>
+</div>
+<div id="factors" class="section level2">
+<h2>Factors</h2>
+<p>When looking at <code>str(CNC_2018_observations)</code> we can see that several of the columns consist of integers. However, the columns <code>observed_on</code>, <code>scientific_name</code>, <code>common_name</code>, <code>taxon_kingdom_name</code>, <code>taxon_phylum_name</code>, … are of a special class called <code>factor</code>. Factors are very useful and actually contribute to making R particularly well suited to working with data. So we are going to spend a little time introducing them.</p>
+<p>Factors represent categorical data. They are stored as integers associated with labels and they can be ordered or unordered. While factors look (and often behave) like character vectors, they are actually treated as integer vectors by R. So you need to be very careful when treating them as strings.</p>
+<p>Once created, factors can only contain a pre-defined set of values, known as <em>levels</em>. By default, R always sorts levels in alphabetical order. For instance, if you have a factor with 3 levels:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">quality_grade &lt;-<span class="st"> </span><span class="kw">factor</span>(<span class="kw">c</span>(<span class="st">&quot;research&quot;</span>, <span class="st">&quot;needs_id&quot;</span>, <span class="st">&quot;research&quot;</span>, <span class="st">&quot;casual&quot;</span>, <span class="st">&quot;needs_id&quot;</span>))</code></pre></div>
+<p>R will assign <code>1</code> to the level <code>&quot;casual&quot;</code>, <code>2</code> to the level <code>&quot;needs_id&quot;</code> and 3 to the level <code>&quot;research&quot;</code> (because <code>c</code> comes before <code>n</code> which comes before <code>r</code>, even though the first element in this vector is <code>&quot;research&quot;</code>). You can see this by using the function <code>levels()</code> and you can find the number of levels using <code>nlevels()</code>:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">levels</span>(quality_grade)
+<span class="kw">nlevels</span>(quality_grade)</code></pre></div>
+<p>Sometimes, the order of the factors does not matter, other times you might want to specify the order because it is meaningful (e.g., “low”, “medium”, “high”), it improves your visualization, or it is required by a particular type of analysis. Here, one way to reorder our levels in the <code>quality_grade</code> vector would be:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">quality_grade <span class="co"># current order</span></code></pre></div>
+<pre><code>#&gt; [1] research needs_id research casual   needs_id
+#&gt; Levels: casual needs_id research</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">quality_grade &lt;-<span class="st"> </span><span class="kw">factor</span>(quality_grade, <span class="dt">levels =</span> <span class="kw">c</span>(<span class="st">&quot;research&quot;</span>, <span class="st">&quot;needs_id&quot;</span>, <span class="st">&quot;casual&quot;</span>))
+quality_grade <span class="co"># after re-ordering</span></code></pre></div>
+<pre><code>#&gt; [1] research needs_id research casual   needs_id
+#&gt; Levels: research needs_id casual</code></pre>
+<p>In R’s memory, these factors are represented by integers (1, 2, 3), but are more informative than integers because factors are self describing: <code>&quot;research&quot;</code>, <code>&quot;needs_id&quot;</code> and <code>&quot;casual&quot;</code> are more descriptive than <code>1</code>, <code>2</code> and <code>3</code>. Which observations are “research”? You wouldn’t be able to tell just from the integer data. Factors, on the other hand, have this information built in. It is particularly helpful when there are many levels (such as in the <code>&quot;scientific_name&quot;</code> field).</p>
+<div id="renaming-factors" class="section level3">
+<h3>Renaming factors</h3>
+<p>When your data is stored as a factor, you can use the <code>plot()</code> function to get a quick glance at the number of observations represented by each factor level. Let’s look at the number of males and females captured over the course of the experiment:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">## bar plot of the number of observations for each quality grade:
+<span class="kw">plot</span>(CNC_2018_observations<span class="op">$</span>quality_grade)
+## bar plot of the number of observations in each day of CNC 2018:
+<span class="kw">plot</span>(CNC_2018_observations<span class="op">$</span>observed_on)</code></pre></div>
+<p><img src="img/R-ecology-unnamed-chunk-15-1.png" width="672" /></p>
+<p>Let’s say we want to rename the factor level <code>&quot;needs_id&quot;</code> to <code>&quot;unidentified&quot;</code>. Before doing that, we’re going to pull out the data on quality_grade and work with that data, so we’re not modifying the working copy of the data frame:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">quality_grade &lt;-<span class="st"> </span>CNC_2018_observations<span class="op">$</span>quality_grade
+<span class="kw">head</span>(quality_grade)</code></pre></div>
+<pre><code>#&gt; [1] casual   needs_id research research research research
+#&gt; Levels: casual needs_id research</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">levels</span>(quality_grade)</code></pre></div>
+<pre><code>#&gt; [1] &quot;casual&quot;   &quot;needs_id&quot; &quot;research&quot;</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">levels</span>(quality_grade)[<span class="dv">2</span>] &lt;-<span class="st"> &quot;unidentified&quot;</span>
+<span class="kw">levels</span>(quality_grade)</code></pre></div>
+<pre><code>#&gt; [1] &quot;casual&quot;       &quot;unidentified&quot; &quot;research&quot;</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">head</span>(quality_grade)</code></pre></div>
+<pre><code>#&gt; [1] casual       unidentified research     research     research    
+#&gt; [6] research    
+#&gt; Levels: casual unidentified research</code></pre>
+</div>
+<div id="using-stringsasfactorsfalse" class="section level3">
+<h3>Using <code>stringsAsFactors=FALSE</code></h3>
+<p>By default, when building or importing a data frame, the columns that contain characters (i.e. text) are coerced (= converted) into factors. Depending on what you want to do with the data, you may want to keep these columns as <code>character</code>. To do so, <code>read.csv()</code> and <code>read.table()</code> have an argument called <code>stringsAsFactors</code> which can be set to <code>FALSE</code>.</p>
+<p>In most cases, it is preferable to set <code>stringsAsFactors = FALSE</code> when importing data and to convert as a factor only the columns that require this data type.</p>
+</div>
+</div>
+<div id="data-manipulation-using-dplyr-and-tidyr" class="section level2">
+<h2>Data Manipulation using <strong><code>dplyr</code></strong> and <strong><code>tidyr</code></strong></h2>
+<p>Bracket subsetting is handy, but it can be cumbersome and difficult to read, especially for complicated operations. Enter <strong><code>dplyr</code></strong>. <strong><code>dplyr</code></strong> is a package for making tabular data manipulation easier. It pairs nicely with <strong><code>tidyr</code></strong> which enables you to swiftly convert between different data formats for plotting and analysis.</p>
+<p>Packages in R are basically sets of additional functions that let you do more stuff. The functions we’ve been using so far, like <code>str()</code> or <code>data.frame()</code>, come built into R; packages give you access to more of them. Before you use a package for the first time you need to install it on your machine, and then you should import it in every subsequent R session when you need it. You should already have installed the <strong><code>tidyverse</code></strong> package. This is an “umbrella-package” that installs several packages useful for data analysis which work together well such as <strong><code>tidyr</code></strong>, <strong><code>dplyr</code></strong>, <strong><code>ggplot2</code></strong>, <strong><code>tibble</code></strong>, etc.</p>
+<p>The <strong><code>tidyverse</code></strong> package tries to address 3 common issues that arise when doing data analysis with some of the functions that come with R:</p>
+<ol style="list-style-type: decimal">
+<li>The results from a base R function sometimes depend on the type of data.</li>
+<li>Using R expressions in a non standard way, which can be confusing for new learners.</li>
+<li>Hidden arguments, having default operations that new learners are not aware of.</li>
+</ol>
+<p>We have seen in our previous lesson that when building or importing a data frame, the columns that contain characters (i.e., text) are coerced (=converted) into the <code>factor</code> data type. We had to set <strong><code>stringsAsFactors</code></strong> to <strong><code>FALSE</code></strong> to avoid this hidden argument to convert our data type.</p>
+<p>This time we will use the <strong><code>tidyverse</code></strong> package to read the data and avoid having to set <strong><code>stringsAsFactors</code></strong> to <strong><code>FALSE</code></strong></p>
+<p>To load the package type:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">## load the tidyverse packages, incl. dplyr
+<span class="kw">library</span>(<span class="st">&quot;tidyverse&quot;</span>)</code></pre></div>
+<div id="what-are-dplyr-and-tidyr" class="section level3">
+<h3>What are <strong><code>dplyr</code></strong> and <strong><code>tidyr</code></strong>?</h3>
+<p>The package <strong><code>dplyr</code></strong> provides easy tools for the most common data manipulation tasks. It is built to work directly with data frames, with many common tasks optimized by being written in a compiled language (C++). An additional feature is the ability to work directly with data stored in an external database. The benefits of doing this are that the data can be managed natively in a relational database, queries can be conducted on that database, and only the results of the query are returned.</p>
+<p>This addresses a common problem with R in that all operations are conducted in-memory and thus the amount of data you can work with is limited by available memory. The database connections essentially remove that limitation in that you can connect to a database of many hundreds of GB, conduct queries on it directly, and pull back into R only what you need for analysis.</p>
+<p>The package <strong><code>tidyr</code></strong> addresses the common problem of wanting to reshape your data for plotting and use by different R functions. Sometimes we want data sets where we have one row per measurement. Sometimes we want a data frame where each measurement type has its own column, and rows are instead more aggregated groups - like plots or aquaria. Moving back and forth between these formats is nontrivial, and <strong><code>tidyr</code></strong> gives you tools for this and more sophisticated data manipulation.</p>
+<p>To learn more about <strong><code>dplyr</code></strong> and <strong><code>tidyr</code></strong> after the workshop, you may want to check out this <a href="https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf">handy data transformation with <strong><code>dplyr</code></strong> cheatsheet</a> and this <a href="https://github.com/rstudio/cheatsheets/raw/master/data-import.pdf">one about <strong><code>tidyr</code></strong></a>.</p>
+<p>We’ll read in our data using the <code>read_csv()</code> function, from the tidyverse package <strong><code>readr</code></strong>, instead of <code>read.csv()</code>.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">CNC_2018_observations &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;data/CNC-2018-observations.csv&quot;</span>)</code></pre></div>
+<pre><code>#&gt; Parsed with column specification:
+#&gt; cols(
+#&gt;   id = col_double(),
+#&gt;   observed_on = col_date(format = &quot;&quot;),
+#&gt;   time_observed_at = col_character(),
+#&gt;   user_login = col_character(),
+#&gt;   quality_grade = col_character(),
+#&gt;   city = col_character(),
+#&gt;   latitude = col_double(),
+#&gt;   longitude = col_double(),
+#&gt;   positional_accuracy = col_double(),
+#&gt;   coordinates_obscured = col_logical(),
+#&gt;   scientific_name = col_character(),
+#&gt;   common_name = col_character(),
+#&gt;   taxon_kingdom_name = col_character(),
+#&gt;   taxon_phylum_name = col_character(),
+#&gt;   taxon_class_name = col_character(),
+#&gt;   taxon_order_name = col_character(),
+#&gt;   taxon_family_name = col_character(),
+#&gt;   taxon_genus_name = col_character(),
+#&gt;   taxon_species_name = col_character()
+#&gt; )</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">## inspect the data
+<span class="kw">str</span>(CNC_2018_observations)</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">## preview the data
+<span class="kw">View</span>(CNC_2018_observations)</code></pre></div>
+<p>Notice that the class of the data is now <code>tbl_df</code></p>
+<p>This is referred to as a “tibble”. Tibbles tweak some of the behaviors of the data frame objects we introduced earlier. The data structure is very similar to a data frame. For our purposes the only differences are that:</p>
+<ol style="list-style-type: decimal">
+<li>In addition to displaying the data type of each column under its name, it only prints the first few rows of data and only as many columns as fit on one screen.</li>
+<li>Columns of class <code>character</code> are never converted into factors.</li>
+</ol>
+<p>We’re going to learn some of the most common <strong><code>dplyr</code></strong> functions:</p>
+<ul>
+<li><code>select()</code>: subset columns</li>
+<li><code>filter()</code>: subset rows on conditions</li>
+<li><code>mutate()</code>: create new columns by using information from other columns</li>
+<li><code>group_by()</code> and <code>summarize()</code>: create summary statisitcs on grouped data</li>
+<li><code>arrange()</code>: sort results</li>
+<li><code>count()</code>: count discrete values</li>
+</ul>
+</div>
+<div id="selecting-columns-and-filtering-rows" class="section level3">
+<h3>Selecting columns and filtering rows</h3>
+<p>To select columns of a data frame, use <code>select()</code>. The first argument to this function is the data frame (<code>CNC_2018_observations</code>), and the subsequent arguments are the columns to keep.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">select</span>(CNC_2018_observations, scientific_name, observed_on, city)</code></pre></div>
+<p>To select all columns <em>except</em> certain ones, put a “-” in front of the variable to exclude it.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">select</span>(CNC_2018_observations, <span class="op">-</span>positional_accuracy, <span class="op">-</span>user_login)</code></pre></div>
+<p>This will select all the variables in <code>CNC_2018_observations</code> except <code>positional_accuracy</code> and <code>user_login</code>.</p>
+<p>To choose rows based on a specific criteria, use <code>filter()</code>:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">filter</span>(CNC_2018_observations, city <span class="op">==</span><span class="st"> &quot;San Francisco&quot;</span>)</code></pre></div>
+</div>
+<div id="pipes" class="section level3">
+<h3>Pipes</h3>
+<p>What if you want to select and filter at the same time? There are three ways to do this: use intermediate steps, nested functions, or pipes.</p>
+<p>With intermediate steps, you create a temporary data frame and use that as input to the next function, like this:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">CNC_2018_observations_SF &lt;-<span class="st"> </span><span class="kw">filter</span>(CNC_2018_observations, city <span class="op">==</span><span class="st"> &quot;San Francisco&quot;</span>)
+CNC_2018_observations_SF &lt;-<span class="st"> </span><span class="kw">select</span>(CNC_2018_observations_SF, scientific_name, observed_on)</code></pre></div>
+<p>This is readable, but can clutter up your workspace with lots of objects that you have to name individually. With multiple steps, that can be hard to keep track of.</p>
+<p>You can also nest functions (i.e. one function inside of another), like this:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">CNC_2018_observations_SF &lt;-<span class="st"> </span><span class="kw">select</span>(<span class="kw">filter</span>(CNC_2018_observations, city <span class="op">==</span><span class="st"> &quot;San Francisco&quot;</span>), scientific_name, observed_on)</code></pre></div>
+<p>This is handy, but can be difficult to read if too many functions are nested, as R evaluates the expression from the inside out (in this case, filtering, then selecting).</p>
+<p>The last option, <em>pipes</em>, are a recent addition to R. Pipes let you take the output of one function and send it directly to the next, which is useful when you need to do many things to the same dataset. Pipes in R look like <code>%&gt;%</code> and are made available via the <strong><code>magrittr</code></strong> package, installed automatically with <strong><code>dplyr</code></strong>. If you use RStudio, you can type the pipe with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>M</kbd> if you have a PC or <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>M</kbd> if you have a Mac.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">CNC_2018_observations <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">filter</span>(city <span class="op">==</span><span class="st"> &quot;San Francisco&quot;</span>) <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">select</span>(scientific_name, observed_on)</code></pre></div>
+<p>In the above code, we use the pipe to send the <code>CNC_2018_observations</code> dataset first through <code>filter()</code> to keep observations made in San Francisco, then through <code>select()</code> to keep only the <code>scientific_name</code>and <code>observed_on</code> columns. Since <code>%&gt;%</code> takes the object on its left and passes it as the first argument to the function on its right, we don’t need to explicitly include the data frame as an argument to the <code>filter()</code> and <code>select()</code> functions any more.</p>
+<p>Some may find it helpful to read the pipe like the word “then”. For instance, in the above example, we took the data frame <code>CNC_2018_observations</code>, <em>then</em> we <code>filter</code>ed for rows with <code>city == &quot;San Francisco&quot;</code>, <em>then</em> we <code>select</code>ed columns <code>scientific_name</code> and <code>observed_on</code>. The <strong><code>dplyr</code></strong> functions by themselves are somewhat simple, but by combining them into linear workflows with the pipe, we can accomplish more complex manipulations of data frames.</p>
+<p>If we want to create a new object with this smaller version of the data, we can assign it a new name:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">CNC_2018_observations_SF &lt;-<span class="st"> </span>CNC_2018_observations <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">filter</span>(city <span class="op">==</span><span class="st"> &quot;San Francisco&quot;</span>) <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">select</span>(scientific_name, observed_on)
+
+CNC_2018_observations_SF</code></pre></div>
+<p>Note that the final data frame is the leftmost part of this expression.</p>
+<blockquote>
+<h3 id="challenge" class="challenge">Challenge</h3>
+<p>Using pipes, subset the <code>CNC_2018_observations</code> data to include all animal observations with a positional accuracy less than 50 and retain only the columns <code>scientific_name</code>, <code>taxon_kingdom_name</code>, and <code>city</code>.</p>
+<div class="accordion">
+<h3 class="toc-ignore">
+Answer
+</h3>
+<div style="background: #fff;">
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">CNC_2018_observations <span class="op">%&gt;%</span>
+<span class="st">    </span><span class="kw">filter</span>(taxon_kingdom_name <span class="op">==</span><span class="st"> &quot;Animalia&quot;</span> <span class="op">&amp;</span><span class="st"> </span>positional_accuracy <span class="op">&lt;</span><span class="st"> </span><span class="dv">50</span>) <span class="op">%&gt;%</span>
+<span class="st">    </span><span class="kw">select</span>(scientific_name, taxon_kingdom_name, city)</code></pre></div>
+</div>
+</div>
+</blockquote>
+</div>
+<div id="mutate" class="section level3">
+<h3>Mutate</h3>
+<p>Frequently you’ll want to create new columns based on the values in existing columns, for example to do unit conversions, or to find the ratio of values in two columns. For this we’ll use <code>mutate()</code>.</p>
+<p>To create a new column of weight in kg:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">CNC_2018_observations <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">mutate</span>(<span class="dt">high_positional_accuracy =</span> positional_accuracy <span class="op">&lt;</span><span class="st"> </span><span class="dv">50</span>)</code></pre></div>
+<p>You can also create a second new column based on the first new column within the same call of <code>mutate()</code>:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">CNC_2018_observations <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">mutate</span>(<span class="dt">high_positional_accuracy =</span> positional_accuracy <span class="op">&lt;</span><span class="st"> </span><span class="dv">50</span>,
+         <span class="dt">high_positional_accuracy_numeric =</span> <span class="kw">as.numeric</span>(high_positional_accuracy)
+         )</code></pre></div>
+</div>
+<div id="the-summarize-function" class="section level3">
+<h3>The <code>summarize()</code> function</h3>
+<p><code>group_by()</code> is often used together with <code>summarize()</code>, which collapses each group into a single-row summary of that group. <code>group_by()</code> takes as arguments the column names that contain the <strong>categorical</strong> variables for which you want to calculate the summary statistics. Let’s say we want to find out the mean latitude and longitude of observations by city:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">CNC_2018_observations <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">group_by</span>(city) <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">summarize</span>(<span class="dt">mean_latitude =</span> <span class="kw">mean</span>(latitude, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>),
+            <span class="dt">mean_longitude =</span> <span class="kw">mean</span>(longitude, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>)
+            )</code></pre></div>
+<p>You may also have noticed that the output from these calls doesn’t run off the screen anymore. It’s one of the advantages of <code>tbl_df</code> over data frame.</p>
+<p>You can also group by multiple columns:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">CNC_2018_observations <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">group_by</span>(city, observed_on) <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">summarize</span>(<span class="dt">mean_latitude =</span> <span class="kw">mean</span>(latitude, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>),
+            <span class="dt">mean_longitude =</span> <span class="kw">mean</span>(longitude, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>)
+            )</code></pre></div>
+</div>
+<div id="counting" class="section level3">
+<h3>Counting</h3>
+<p>When working with data, we often want to know the number of observations found for each factor or combination of factors. For this task, <strong><code>dplyr</code></strong> provides <code>count()</code>. For example, if we wanted to count the number of observations for each kingdom, we would do:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">CNC_2018_observations <span class="op">%&gt;%</span>
+<span class="st">    </span><span class="kw">count</span>(taxon_kingdom_name) </code></pre></div>
+<p>The <code>count()</code> function is shorthand for something we’ve already seen: grouping by a variable, and summarizing it by counting the number of observations in that group. In other words, <code>CNC_2018_observations %&gt;% count()</code> is equivalent to:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">CNC_2018_observations <span class="op">%&gt;%</span>
+<span class="st">    </span><span class="kw">group_by</span>(taxon_kingdom_name) <span class="op">%&gt;%</span>
+<span class="st">    </span><span class="kw">summarise</span>(<span class="dt">count =</span> <span class="kw">n</span>())</code></pre></div>
+<p>Previous example shows the use of <code>count()</code> to count the number of rows/observations for <em>one</em> factor (i.e., <code>sex</code>). If we wanted to count <em>combination of factors</em>, such as <code>city</code> and <code>taxon_kingdom_name</code>, we would specify the first and the second factor as the arguments of <code>count()</code>:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">CNC_2018_observations <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">count</span>(city, taxon_kingdom_name) </code></pre></div>
+<p>With the above code, we can proceed with <code>arrange()</code> to sort the table according to a number of criteria so that we have a better comparison. For instance, we might want to arrange the table above in (i) an alphabetical order of the levels of the species and (ii) in descending order of the count:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">CNC_2018_observations <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">count</span>(city, taxon_kingdom_name) <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">arrange</span>(taxon_kingdom_name, <span class="kw">desc</span>(n))</code></pre></div>
+<p>In the table above, we can see that there are a number of observations that have not been assigned a kingdom name (i.e. NA). These are probably observations from the <code>casual</code> and <code>needs_id</code> quality_grade categories. To focus on <code>research_grade</code> observations, we can start our pipeline with a <code>filter()</code> statement. In addition, we can reorder the columns in the output in a way that makes more sense for us with <code>select()</code>:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">CNC_2018_observations <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">filter</span>(quality_grade <span class="op">==</span><span class="st"> &quot;research&quot;</span>) <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">count</span>(city, taxon_kingdom_name) <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">arrange</span>(taxon_kingdom_name, <span class="kw">desc</span>(n)) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">select</span>(taxon_kingdom_name, city, n)</code></pre></div>
+<p>And so, we can clearly see that, in the CNC 2018, San Francisco made more observations than L.A. for every single kingdom, except for algae. Well done SF!</p>
+<blockquote>
+<h3 id="challenge-1" class="challenge">Challenge</h3>
+<ol style="list-style-type: decimal">
+<li>How many species were observed in SF versus LA? (hint: see ?n_distinct)</li>
+</ol>
+<div class="accordion">
+<h3 class="toc-ignore">
+Answer
+</h3>
+<div style="background: #fff;">
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">CNC_2018_observations <span class="op">%&gt;%</span>
+<span class="st">    </span><span class="kw">group_by</span>(city) <span class="op">%&gt;%</span>
+<span class="st">    </span><span class="kw">summarize</span>(<span class="dt">num_species =</span> <span class="kw">n_distinct</span>(taxon_species_name))</code></pre></div>
+</div>
+</div>
+<ol start="2" style="list-style-type: decimal">
+<li>What was the most observed species in each city? (hint: combine count() and arrange())</li>
+</ol>
+<div class="accordion">
+<h3 class="toc-ignore">
+Answer
+</h3>
+<div style="background: #fff;">
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">CNC_2018_observations <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="kw">count</span>(city, taxon_species_name) <span class="op">%&gt;%</span>
+<span class="kw">arrange</span>(<span class="kw">desc</span>(n))</code></pre></div>
+</div>
+</div>
+</blockquote>
+</div>
+<div id="reshaping-with-gather-and-spread" class="section level3">
+<h3>Reshaping with gather and spread</h3>
+<p>Let’s say we wanted to take our iNaturalist observations and generate a site-by-species matrix that details wether each species from our overall set of observed species was observed at each latitude/longitude combination. This would be transforming our dataset from a “long” to a “wide” format, where row values are transformed into column names.</p>
+<p>Two handy <code>tidyr</code> functions, <code>spread()</code> and <code>gather()</code> simplify switching from a long to a wide data format, and vice versa.</p>
+<div id="spreading" class="section level4">
+<h4>Spreading</h4>
+<p><code>spread()</code> takes three principal arguments:</p>
+<ol style="list-style-type: decimal">
+<li>the data</li>
+<li>the <em>key</em> column variable whose values will become new column names.<br />
+</li>
+<li>the <em>value</em> column variable whose values will fill the new column variables.</li>
+</ol>
+<p>Further arguments include <code>fill</code> which, if set, fills in missing values with the value provided.</p>
+<p>Let’s use <code>spread()</code> to transform CNC_2018_observations into a city-by-species matrix for all animal species. We first use <code>filter()</code> and <code>select()</code> to filter our observations and variables of interest. We also add a column called <code>observed</code> to indicate that that species was observed in the respective city (this will make sense in a minute!).</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">CNC_2018_species_SF &lt;-<span class="st"> </span>CNC_2018_observations <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">filter</span>(taxon_kingdom_name <span class="op">==</span><span class="st"> &quot;Animalia&quot;</span> <span class="op">&amp;</span><span class="st"> </span><span class="op">!</span><span class="kw">is.na</span>(taxon_species_name)) <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">select</span>(city, taxon_species_name) <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">mutate</span>(<span class="dt">observed =</span> <span class="dv">1</span>)
+
+<span class="kw">head</span>(CNC_2018_species_SF)</code></pre></div>
+<p>At a glance, we can see that some rows are exact duplicates since many species were observed more than once in each city. Let’s remove those using the handy <code>dplyr</code> function <code>distinct_all()</code>, because we do not want duplicated rows.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">CNC_2018_species_SF &lt;-<span class="st"> </span>CNC_2018_species_SF <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">distinct_all</span>()
+
+<span class="kw">head</span>(CNC_2018_species_SF)</code></pre></div>
+<p>This yields a dataset where the species observed in each city are spread across multiple rows: 1,908 observations of 3 variables. Using <code>spread()</code> to key on <code>taxon_species_name</code> with values from <code>observed</code> this becomes 2 observations of 1,481 variables, one row for each city and a column for each species. Remember that the argument <code>fill</code> enables us to assign a value for empty cells (i.e. species not found in a given city). We again use pipes:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">CNC_2018_species_SF_wide &lt;-<span class="st"> </span>CNC_2018_species_SF <span class="op">%&gt;%</span>
+<span class="st">  </span><span class="kw">spread</span>(<span class="dt">key =</span> taxon_species_name, <span class="dt">value =</span> observed, <span class="dt">fill =</span> <span class="dv">0</span>)
+
+## Here is what the &quot;wide&quot; data look like with str
+<span class="kw">str</span>(CNC_2018_species_SF_wide)
+## Here is what the &quot;wide&quot; data look like with head
+<span class="kw">head</span>(CNC_2018_species_SF_wide[, <span class="dv">1</span><span class="op">:</span><span class="dv">10</span>])</code></pre></div>
+<p>Success!</p>
+</div>
+<div id="gathering" class="section level4">
+<h4>Gathering</h4>
+<p>The opposing situation could occur if we had been provided with data in the form of <code>CNC_2018_species_SF_wide</code>, where the species names are column names, but we wish to treat them as values of a species-level variable instead.</p>
+<p>In this situation we are gathering the column names and turning them into a pair of new variables. One variable represents the column names as values, and the other variable contains the values previously associated with the column names.</p>
+<p><code>gather()</code> takes four principal arguments:</p>
+<ol style="list-style-type: decimal">
+<li>the data</li>
+<li>the <em>key</em> column variable we wish to create from column names.</li>
+<li>the <em>values</em> column variable we wish to create and fill with values associated with the key.</li>
+<li>the names of the columns we use to fill the key variable (or to drop).</li>
+</ol>
+<p>To recreate <code>CNC_2018_species_SF</code> from <code>CNC_2018_species_SF_wide</code> we would create a key called <code>taxon_species_name</code> and value called <code>observed</code> and use all columns except <code>city</code> for the key variable. Here we drop <code>city</code> column with a minus sign.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">CNC_2018_species_SF_long &lt;-<span class="st"> </span>CNC_2018_species_SF_wide <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span>tidyr<span class="op">::</span><span class="kw">gather</span>(<span class="dt">key =</span> taxon_species_name, <span class="dt">value =</span> observed, <span class="op">-</span>city, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>)
+
+<span class="kw">head</span>(CNC_2018_species_SF_long)</code></pre></div>
+</div>
+</div>
+<div id="joins" class="section level3">
+<h3>Joins</h3>
+<div id="understanding-joins" class="section level4">
+<h4>Understanding joins</h4>
+<p>It’s rare that a data analysis involves only a single table of data. Typically you have many tables of data, and you must combine them to answer the questions that you’re interested in. Collectively, multiple tables of data are called <strong>relational data</strong> because it is the relations, not just the individual datasets, that are important.</p>
+<p>Combining two tables is most often done using <code>joins</code>. To help you learn how joins work, let’s use a visual representation:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">x &lt;-<span class="st"> </span><span class="kw">tribble</span>(
+  <span class="op">~</span>key, <span class="op">~</span>val_x,
+     <span class="dv">1</span>, <span class="st">&quot;x1&quot;</span>,
+     <span class="dv">2</span>, <span class="st">&quot;x2&quot;</span>,
+     <span class="dv">3</span>, <span class="st">&quot;x3&quot;</span>
+)
+y &lt;-<span class="st"> </span><span class="kw">tribble</span>(
+  <span class="op">~</span>key, <span class="op">~</span>val_y,
+     <span class="dv">1</span>, <span class="st">&quot;y1&quot;</span>,
+     <span class="dv">2</span>, <span class="st">&quot;y2&quot;</span>,
+     <span class="dv">4</span>, <span class="st">&quot;y3&quot;</span>
+)</code></pre></div>
+<p>The coloured column represents the “key” variable: these are used to match the rows between the tables. The grey column represents the “value” column that is carried along for the ride. In these examples I’ll show a single key variable, but the idea generalises in a straightforward way to multiple keys and multiple values.</p>
+<p>A join is a way of connecting each row in <code>x</code> to zero, one, or more rows in <code>y</code>. The following diagram shows each potential match as an intersection of a pair of lines.</p>
+<p>(If you look closely, you might notice that we’ve switched the order of the key and value columns in <code>x</code>. This is to emphasise that joins match based on the key; the value is just carried along for the ride.)</p>
+<p>In an actual join, matches will be indicated with dots. The number of dots = the number of matches = the number of rows in the output.</p>
+</div>
+<div id="left-joins" class="section level4">
+<h4>Left joins</h4>
+<p>There are multiple types of joins, but the most commonly used join is the left join: you use this whenever you look up additional data from another table, because it preserves the original observations even when there isn’t a match. The left join should be your default join: use it unless you have a strong reason to prefer one of the others. Let’s have a look at how left joins work by loading some additional data on iNaturalist images for City Nature Challenge 2018 observations.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">CNC_2018_images &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;data/CNC_2018_images.csv&quot;</span>)</code></pre></div>
+<pre><code>#&gt; Parsed with column specification:
+#&gt; cols(
+#&gt;   id = col_double(),
+#&gt;   url = col_character(),
+#&gt;   image_url = col_character(),
+#&gt;   license = col_character()
+#&gt; )</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">CNC_2018_images</code></pre></div>
+<p>Now let’s join the image data in CNC_2018_images with the other observation data in CNC_2018_observations using the field “id” as our key.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">CNC_2018_data &lt;-<span class="st"> </span><span class="kw">left_join</span>(CNC_2018_observations, CNC_2018_images, <span class="dt">by =</span> <span class="st">&quot;id&quot;</span>)
+<span class="kw">dim</span>(CNC_2018_observations)
+<span class="kw">dim</span>(CNC_2018_images)
+<span class="kw">dim</span>(CNC_2018_data)</code></pre></div>
+<p>Note how CNC_2018_data has the same number of rows as CNC_2018_observations but 3 additional columns - the number of columns of CNC_2018_images minus the shared key field “id”.</p>
+<p>You can find a comprehensive guide to joins <a href="https://r4ds.had.co.nz/relational-data.html">here</a>.</p>
+</div>
+</div>
+</div>
+<div id="exporting-data" class="section level2">
+<h2>Exporting data</h2>
+<p>Now that you have learned how to use <strong><code>dplyr</code></strong> to extract information from or summarize your raw data, you may want to export these new data sets to share them with your collaborators or for archival.</p>
+<p>Similar to the <code>read_csv()</code> function used for reading CSV files into R, there is a <code>write_csv()</code> function that generates CSV files from data frames.</p>
+<p>To store data output, we have already created a folder named <code>outputs</code> in our working directory. We don’t want to write generated datasets in the same directory as our raw data. It’s good practice to keep them separate. The <code>data</code> folder should only contain the raw, unaltered data, and should be left alone to make sure we don’t delete or modify it. In contrast, our script will generate the contents of the <code>outputs</code> directory, so even if the files it contains are deleted, we can always re-generate them.</p>
+<p>So, let’s save CNC_2018_data as a CSV file in our <code>outputs</code> folder.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">write_csv</span>(CNC_2018_data, <span class="dt">path =</span> <span class="st">&quot;outputs/CNC_2018_data.csv&quot;</span>)</code></pre></div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
