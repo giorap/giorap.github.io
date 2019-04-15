@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Programming basics</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link rel="shortcut icon" href="favicon/favicon.ico">
+<link rel="icon" sizes="16x16 32x32 64x64" href="favicon/favicon.ico">
+<link rel="icon" type="image/png" sizes="196x196" href="favicon/favicon-192.png">
+<link rel="icon" type="image/png" sizes="160x160" href="favicon/favicon-160.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96.png">
+<link rel="icon" type="image/png" sizes="64x64" href="favicon/favicon-64.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16.png">
+<link rel="apple-touch-icon" href="favicon/favicon-57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="favicon/favicon-114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="favicon/favicon-72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="favicon/favicon-144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="favicon/favicon-60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="favicon/favicon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="favicon/favicon-76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="favicon/favicon-152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/favicon-180.png">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="msapplication-TileImage" content="favicon/favicon-144.png">
+<meta name="msapplication-config" content="favicon/browserconfig.xml">
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+<script>
+  $( function() {
+  $( ".accordion" ).accordion({
+      heightStyle: "content",
+      active: false,
+      collapsible: true
+    });
+  } );
+</script>
+
+<script>
+  <!-- search menu pop-up --->
+  $(function() {
+    function slideToggle() {
+      $("#search-box").toggle("slide", 500);
+  };
+  $("#search-icon").on("click", function() {
+  slideToggle();
+  });
+  });
+</script>
+
+
+<!-- add  Algolia DocSearch -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
+
+<!-- Motomo analytics -->
+
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://datacarpentry.matomo.cloud/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css" data-origin="pandoc">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+
+</style>
+<script>
+// apply pandoc div.sourceCode style to pre.sourceCode instead
+(function() {
+  var sheets = document.styleSheets;
+  for (var i = 0; i < sheets.length; i++) {
+    if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
+    try { var rules = sheets[i].cssRules; } catch (e) { continue; }
+    for (var j = 0; j < rules.length; j++) {
+      var rule = rules[j];
+      // check if there is a div.sourceCode rule
+      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") continue;
+      var style = rule.style.cssText;
+      // check if color or background-color is set
+      if (rule.style.color === '' || rule.style.backgroundColor === '') continue;
+      // replace div.sourceCode by a pre.sourceCode rule
+      sheets[i].deleteRule(j);
+      sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
+    }
+  }
+})();
+</script>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+<li>
+  <a href="01-getting-started-with-R.html">Getting started with R</a>
+</li>
+<li>
+  <a href="02-programming-concepts.html">Coding concepts</a>
+</li>
+<li>
+  <a href="03-data-analysis.html">Data analysis basics</a>
+</li>
+<li>
+  <a href="04-data-visualization.html">Data visualization basics</a>
+</li>
+<li>
+  <a href="05-programming.html">Programming basics</a>
+</li>
+<li>
+  <a href="06-more.html">Learn more</a>
+</li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+	<li class="search">
+	  <input id="search-box" type="text"  placeholder="Search...">
+	  <input type="submit">
+	</li>
+	<li class="search">
+	  <span id ="search-icon"><i class="fa fa-search fa-lg"></i></span>
+	</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Programming basics</h1>
+
+</div>
+
+
+<div id="functions" class="section level2">
+<h2>Functions</h2>
+<div id="introduction" class="section level3">
+<h3>Introduction</h3>
+<p>One of the best ways to improve your reach as a data scientist is to write functions. Functions allow you to automate common tasks in a more powerful and general way than copy-and-pasting. Writing a function has three big advantages over using copy-and-paste:</p>
+<ol style="list-style-type: decimal">
+<li><p>You can give a function an evocative name that makes your code easier to understand.</p></li>
+<li><p>As requirements change, you only need to update code in one place, instead of many.</p></li>
+<li><p>You eliminate the chance of making incidental mistakes when you copy and paste (i.e. updating a variable name in one place, but not in another).</p></li>
+</ol>
+<p>Writing good functions is a lifetime journey. Even after using R for many years I still learn new techniques and better ways of approaching old problems. The goal of this chapter is not to teach you every esoteric detail of functions but to get you started with some pragmatic advice that you can apply immediately.</p>
+<p>As well as practical advice for writing functions, this chapter also gives you some suggestions for how to style your code. Good code style is like correct punctuation. Youcanmanagewithoutit, but it sure makes things easier to read! As with styles of punctuation, there are many possible variations. Here we present the style we use in our code, but the most important thing is to be consistent.</p>
+</div>
+<div id="when-should-you-write-a-function" class="section level3">
+<h3>When should you write a function?</h3>
+<p>You should consider writing a function whenever you’ve copied and pasted a block of code more than twice (i.e. you now have three copies of the same code). For example, take a look at this code. What does it do?</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">df &lt;-<span class="st"> </span>tibble<span class="op">::</span><span class="kw">tibble</span>(
+  <span class="dt">a =</span> <span class="kw">rnorm</span>(<span class="dv">10</span>),
+  <span class="dt">b =</span> <span class="kw">rnorm</span>(<span class="dv">10</span>),
+  <span class="dt">c =</span> <span class="kw">rnorm</span>(<span class="dv">10</span>),
+  <span class="dt">d =</span> <span class="kw">rnorm</span>(<span class="dv">10</span>)
+)
+
+df<span class="op">$</span>a &lt;-<span class="st"> </span>(df<span class="op">$</span>a <span class="op">-</span><span class="st"> </span><span class="kw">min</span>(df<span class="op">$</span>a, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>)) <span class="op">/</span><span class="st"> </span>
+<span class="st">  </span>(<span class="kw">max</span>(df<span class="op">$</span>a, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>) <span class="op">-</span><span class="st"> </span><span class="kw">min</span>(df<span class="op">$</span>a, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>))
+df<span class="op">$</span>b &lt;-<span class="st"> </span>(df<span class="op">$</span>b <span class="op">-</span><span class="st"> </span><span class="kw">min</span>(df<span class="op">$</span>b, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>)) <span class="op">/</span><span class="st"> </span>
+<span class="st">  </span>(<span class="kw">max</span>(df<span class="op">$</span>b, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>) <span class="op">-</span><span class="st"> </span><span class="kw">min</span>(df<span class="op">$</span>a, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>))
+df<span class="op">$</span>c &lt;-<span class="st"> </span>(df<span class="op">$</span>c <span class="op">-</span><span class="st"> </span><span class="kw">min</span>(df<span class="op">$</span>c, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>)) <span class="op">/</span><span class="st"> </span>
+<span class="st">  </span>(<span class="kw">max</span>(df<span class="op">$</span>c, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>) <span class="op">-</span><span class="st"> </span><span class="kw">min</span>(df<span class="op">$</span>c, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>))
+df<span class="op">$</span>d &lt;-<span class="st"> </span>(df<span class="op">$</span>d <span class="op">-</span><span class="st"> </span><span class="kw">min</span>(df<span class="op">$</span>d, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>)) <span class="op">/</span><span class="st"> </span>
+<span class="st">  </span>(<span class="kw">max</span>(df<span class="op">$</span>d, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>) <span class="op">-</span><span class="st"> </span><span class="kw">min</span>(df<span class="op">$</span>d, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>))</code></pre></div>
+<p>You might be able to puzzle out that this rescales each column to have a range from 0 to 1. But did you spot the mistake? I made an error when copying-and-pasting the code for <code>df$b</code>: I forgot to change an <code>a</code> to a <code>b</code>. Extracting repeated code out into a function is a good idea because it prevents you from making this type of mistake.</p>
+<p>To write a function you need to first analyse the code. How many inputs does it have?</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">(df<span class="op">$</span>a <span class="op">-</span><span class="st"> </span><span class="kw">min</span>(df<span class="op">$</span>a, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>)) <span class="op">/</span>
+<span class="st">  </span>(<span class="kw">max</span>(df<span class="op">$</span>a, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>) <span class="op">-</span><span class="st"> </span><span class="kw">min</span>(df<span class="op">$</span>a, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>))</code></pre></div>
+<p>This code only has one input: <code>df$a</code>. (If you’re surprised that <code>TRUE</code> is not an input, you can explore why in the exercise below.) To make the inputs more clear, it’s a good idea to rewrite the code using temporary variables with general names. Here this code only requires a single numeric vector, so I’ll call it <code>x</code>:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">x &lt;-<span class="st"> </span>df<span class="op">$</span>a
+(x <span class="op">-</span><span class="st"> </span><span class="kw">min</span>(x, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>)) <span class="op">/</span><span class="st"> </span>(<span class="kw">max</span>(x, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>) <span class="op">-</span><span class="st"> </span><span class="kw">min</span>(x, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>))</code></pre></div>
+<p>There is some duplication in this code. We’re computing the range of the data three times, so it makes sense to do it in one step:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">rng &lt;-<span class="st"> </span><span class="kw">range</span>(x, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>)
+(x <span class="op">-</span><span class="st"> </span>rng[<span class="dv">1</span>]) <span class="op">/</span><span class="st"> </span>(rng[<span class="dv">2</span>] <span class="op">-</span><span class="st"> </span>rng[<span class="dv">1</span>])</code></pre></div>
+<p>Pulling out intermediate calculations into named variables is a good practice because it makes it more clear what the code is doing. Now that I’ve simplified the code, and checked that it still works, I can turn it into a function:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">rescale01 &lt;-<span class="st"> </span><span class="cf">function</span>(x) {
+  rng &lt;-<span class="st"> </span><span class="kw">range</span>(x, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>)
+  (x <span class="op">-</span><span class="st"> </span>rng[<span class="dv">1</span>]) <span class="op">/</span><span class="st"> </span>(rng[<span class="dv">2</span>] <span class="op">-</span><span class="st"> </span>rng[<span class="dv">1</span>])
+}
+<span class="kw">rescale01</span>(<span class="kw">c</span>(<span class="dv">0</span>, <span class="dv">5</span>, <span class="dv">10</span>))</code></pre></div>
+<p>There are three key steps to creating a new function:</p>
+<ol style="list-style-type: decimal">
+<li><p>You need to pick a <strong>name</strong> for the function. Here I’ve used <code>rescale01</code> because this function rescales a vector to lie between 0 and 1.</p></li>
+<li><p>You list the inputs, or <strong>arguments</strong>, to the function inside <code>function</code>. Here we have just one argument. If we had more the call would look like <code>function(x, y, z)</code>.</p></li>
+<li><p>You place the code you have developed in <strong>body</strong> of the function, a <code>{</code> block that immediately follows <code>function(...)</code>.</p></li>
+</ol>
+<p>Note the overall process: I only made the function after I’d figured out how to make it work with a simple input. It’s easier to start with working code and turn it into a function; it’s harder to create a function and then try to make it work.</p>
+<p>At this point it’s a good idea to check your function with a few different inputs:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">rescale01</span>(<span class="kw">c</span>(<span class="op">-</span><span class="dv">10</span>, <span class="dv">0</span>, <span class="dv">10</span>))
+<span class="kw">rescale01</span>(<span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="ot">NA</span>, <span class="dv">5</span>))</code></pre></div>
+<p>We can simplify the original example now that we have a function:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">df<span class="op">$</span>a &lt;-<span class="st"> </span><span class="kw">rescale01</span>(df<span class="op">$</span>a)
+df<span class="op">$</span>b &lt;-<span class="st"> </span><span class="kw">rescale01</span>(df<span class="op">$</span>b)
+df<span class="op">$</span>c &lt;-<span class="st"> </span><span class="kw">rescale01</span>(df<span class="op">$</span>c)
+df<span class="op">$</span>d &lt;-<span class="st"> </span><span class="kw">rescale01</span>(df<span class="op">$</span>d)</code></pre></div>
+<p>Compared to the original, this code is easier to understand and we’ve eliminated one class of copy-and-paste errors. There is still quite a bit of duplication since we’re doing the same thing to multiple columns. We’ll learn how to eliminate that duplication in [iteration], once you’ve learned more about R’s data structures in [vectors].</p>
+<p>Another advantage of functions is that if our requirements change, we only need to make the change in one place. For example, we might discover that some of our variables include infinite values, and <code>rescale01()</code> fails:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">x &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="dv">1</span><span class="op">:</span><span class="dv">10</span>, <span class="ot">Inf</span>)
+<span class="kw">rescale01</span>(x)</code></pre></div>
+<p>Because we’ve extracted the code into a function, we only need to make the fix in one place:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">rescale01 &lt;-<span class="st"> </span><span class="cf">function</span>(x) {
+  rng &lt;-<span class="st"> </span><span class="kw">range</span>(x, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>, <span class="dt">finite =</span> <span class="ot">TRUE</span>)
+  (x <span class="op">-</span><span class="st"> </span>rng[<span class="dv">1</span>]) <span class="op">/</span><span class="st"> </span>(rng[<span class="dv">2</span>] <span class="op">-</span><span class="st"> </span>rng[<span class="dv">1</span>])
+}
+<span class="kw">rescale01</span>(x)</code></pre></div>
+<p>This is an important part of the “do not repeat yourself” (or DRY) principle. The more repetition you have in your code, the more places you need to remember to update when things change (and they always do!), and the more likely you are to create bugs over time.</p>
+<blockquote>
+<h2 id="challenge">Challenge</h2>
+<ol style="list-style-type: decimal">
+<li>Practice turning the following code snippets into functions. Think about what each function does. What would you call it? How many arguments does it need? Can you rewrite it to be more expressive or less duplicative?</li>
+</ol>
+<p>```r mean(is.na(x))</p>
+<p>x / sum(x, na.rm = TRUE)</p>
+<p>sd(x, na.rm = TRUE) / mean(x, na.rm = TRUE)</p>
+<p>## Conditional execution</p>
+<p>An <code>if</code> statement allows you to conditionally execute code. It looks like this: ```</p>
+</blockquote>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="cf">if</span> (condition) {
+  <span class="co"># code executed when condition is TRUE</span>
+} <span class="cf">else</span> {
+  <span class="co"># code executed when condition is FALSE</span>
+}</code></pre></div>
+<p>To get help on <code>if</code> you need to surround it in backticks: <code>?`if`</code>. The help isn’t particularly helpful if you’re not already an experienced programmer, but at least you know how to get to it!</p>
+<p>Here’s a simple function that uses an <code>if</code> statement. The goal of this function is to return a logical vector describing whether or not each element of a vector is named.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">has_name &lt;-<span class="st"> </span><span class="cf">function</span>(x) {
+  nms &lt;-<span class="st"> </span><span class="kw">names</span>(x)
+  <span class="cf">if</span> (<span class="kw">is.null</span>(nms)) {
+    <span class="kw">rep</span>(<span class="ot">FALSE</span>, <span class="kw">length</span>(x))
+  } <span class="cf">else</span> {
+    <span class="op">!</span><span class="kw">is.na</span>(nms) <span class="op">&amp;</span><span class="st"> </span>nms <span class="op">!=</span><span class="st"> &quot;&quot;</span>
+  }
+}</code></pre></div>
+<p>This function takes advantage of the standard return rule: a function returns the last value that it computed. Here that is either one of the two branches of the <code>if</code> statement.</p>
+</div>
+<div id="conditions" class="section level3">
+<h3>Conditions</h3>
+<p>The <code>condition</code> must evaluate to either <code>TRUE</code> or <code>FALSE</code>. If it’s a vector, you’ll get a warning message; if it’s an <code>NA</code>, you’ll get an error. Watch out for these messages in your own code:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="cf">if</span> (<span class="kw">c</span>(<span class="ot">TRUE</span>, <span class="ot">FALSE</span>)) {}</code></pre></div>
+<pre><code>#&gt; Warning in if (c(TRUE, FALSE)) {: the condition has length &gt; 1 and only the
+#&gt; first element will be used</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="cf">if</span> (<span class="ot">NA</span>) {}</code></pre></div>
+<pre><code>#&gt; Error in if (NA) {: missing value where TRUE/FALSE needed</code></pre>
+</div>
+<div id="multiple-conditions" class="section level3">
+<h3>Multiple conditions</h3>
+<p>You can chain multiple if statements together:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="cf">if</span> (this) {
+  <span class="co"># do that</span>
+} <span class="cf">else</span> <span class="cf">if</span> (that) {
+  <span class="co"># do something else</span>
+} <span class="cf">else</span> {
+  <span class="co"># </span>
+}</code></pre></div>
+</div>
+</div>
+<div id="for-loops" class="section level2">
+<h2>For loops</h2>
+<p>Imagine we have this simple tibble:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">df &lt;-<span class="st"> </span><span class="kw">tibble</span>(
+  <span class="dt">a =</span> <span class="kw">rnorm</span>(<span class="dv">10</span>),
+  <span class="dt">b =</span> <span class="kw">rnorm</span>(<span class="dv">10</span>),
+  <span class="dt">c =</span> <span class="kw">rnorm</span>(<span class="dv">10</span>),
+  <span class="dt">d =</span> <span class="kw">rnorm</span>(<span class="dv">10</span>)
+)</code></pre></div>
+<p>We want to compute the median of each column. You <em>could</em> do with copy-and-paste:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">median</span>(df<span class="op">$</span>a)
+<span class="kw">median</span>(df<span class="op">$</span>b)
+<span class="kw">median</span>(df<span class="op">$</span>c)
+<span class="kw">median</span>(df<span class="op">$</span>d)</code></pre></div>
+<p>But that breaks our rule of thumb: never copy and paste more than twice. Instead, we could use a for loop:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">output &lt;-<span class="st"> </span><span class="kw">vector</span>(<span class="st">&quot;double&quot;</span>, <span class="kw">ncol</span>(df))  <span class="co"># 1. output</span>
+<span class="cf">for</span> (i <span class="cf">in</span> <span class="kw">seq_along</span>(df)) {            <span class="co"># 2. sequence</span>
+  output[[i]] &lt;-<span class="st"> </span><span class="kw">median</span>(df[[i]])      <span class="co"># 3. body</span>
+}
+output</code></pre></div>
+<p>Every for loop has three components:</p>
+<ol style="list-style-type: decimal">
+<li><p>The <strong>output</strong>: <code>output &lt;- vector(&quot;double&quot;, length(x))</code>. Before you start the loop, you must always allocate sufficient space for the output. This is very important for efficiency: if you grow the for loop at each iteration using <code>c()</code> (for example), your for loop will be very slow.</p>
+<p>A general way of creating an empty vector of given length is the <code>vector()</code> function. It has two arguments: the type of the vector (“logical”, “integer”, “double”, “character”, etc) and the length of the vector.</p></li>
+<li><p>The <strong>sequence</strong>: <code>i in seq_along(df)</code>. This determines what to loop over: each run of the for loop will assign <code>i</code> to a different value from <code>seq_along(df)</code>. It’s useful to think of <code>i</code> as a pronoun, like “it”.</p>
+<p>You might not have seen <code>seq_along()</code> before. It’s a safe version of the familiar <code>1:length(l)</code>, with an important difference: if you have a zero-length vector, <code>seq_along()</code> does the right thing:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">y &lt;-<span class="st"> </span><span class="kw">vector</span>(<span class="st">&quot;double&quot;</span>, <span class="dv">0</span>)
+<span class="kw">seq_along</span>(y)
+<span class="dv">1</span><span class="op">:</span><span class="kw">length</span>(y)</code></pre></div>
+<p>You probably won’t create a zero-length vector deliberately, but it’s easy to create them accidentally. If you use <code>1:length(x)</code> instead of <code>seq_along(x)</code>, you’re likely to get a confusing error message.</p></li>
+<li><p>The <strong>body</strong>: <code>output[[i]] &lt;- median(df[[i]])</code>. This is the code that does the work. It’s run repeatedly, each time with a different value for <code>i</code>. The first iteration will run <code>output[[1]] &lt;- median(df[[1]])</code>, the second will run <code>output[[2]] &lt;- median(df[[2]])</code>, and so on.</p></li>
+</ol>
+<p>That’s all there is to the for loop! Now is a good time to practice creating some basic (and not so basic) for loops using the exercises below. Then we’ll move on some variations of the for loop that help you solve other problems that will crop up in practice.</p>
+<blockquote>
+<h3 id="challenges">Challenges</h3>
+<p>Write for loops to:</p>
+<ol style="list-style-type: decimal">
+<li>Compute the mean of every column in <code>mtcars</code>.</li>
+<li>Compute the number of unique values in each column of <code>iris</code>.</li>
+</ol>
+<p>Think about the output, sequence, and body <strong>before</strong> you start writing the loop.</p>
+</blockquote>
+<div id="modifying-an-existing-object" class="section level3">
+<h3>Modifying an existing object</h3>
+<p>Sometimes you want to use a for loop to modify an existing object. For example, remember our challenge ‘rescale01’ function. We wanted to rescale every column in a data frame:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">df &lt;-<span class="st"> </span><span class="kw">tibble</span>(
+  <span class="dt">a =</span> <span class="kw">rnorm</span>(<span class="dv">10</span>),
+  <span class="dt">b =</span> <span class="kw">rnorm</span>(<span class="dv">10</span>),
+  <span class="dt">c =</span> <span class="kw">rnorm</span>(<span class="dv">10</span>),
+  <span class="dt">d =</span> <span class="kw">rnorm</span>(<span class="dv">10</span>)
+)
+rescale01 &lt;-<span class="st"> </span><span class="cf">function</span>(x) {
+  rng &lt;-<span class="st"> </span><span class="kw">range</span>(x, <span class="dt">na.rm =</span> <span class="ot">TRUE</span>)
+  (x <span class="op">-</span><span class="st"> </span>rng[<span class="dv">1</span>]) <span class="op">/</span><span class="st"> </span>(rng[<span class="dv">2</span>] <span class="op">-</span><span class="st"> </span>rng[<span class="dv">1</span>])
+}
+
+df<span class="op">$</span>a &lt;-<span class="st"> </span><span class="kw">rescale01</span>(df<span class="op">$</span>a)
+df<span class="op">$</span>b &lt;-<span class="st"> </span><span class="kw">rescale01</span>(df<span class="op">$</span>b)
+df<span class="op">$</span>c &lt;-<span class="st"> </span><span class="kw">rescale01</span>(df<span class="op">$</span>c)
+df<span class="op">$</span>d &lt;-<span class="st"> </span><span class="kw">rescale01</span>(df<span class="op">$</span>d)</code></pre></div>
+<p>To solve this with a for loop we again think about the three components:</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Output</strong>: we already have the output — it’s the same as the input!</p></li>
+<li><p><strong>Sequence</strong>: we can think about a data frame as a list of columns, so we can iterate over each column with <code>seq_along(df)</code>.</p></li>
+<li><p><strong>Body</strong>: apply <code>rescale01()</code>.</p></li>
+</ol>
+<p>This gives us:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="cf">for</span> (i <span class="cf">in</span> <span class="kw">seq_along</span>(df)) {
+  df[[i]] &lt;-<span class="st"> </span><span class="kw">rescale01</span>(df[[i]])
+}</code></pre></div>
+<p>Typically you’ll be modifying a list or data frame with this sort of loop, so remember to use <code>[[</code>, not <code>[</code>. You might have spotted that I used <code>[[</code> in all my for loops: I think it’s better to use <code>[[</code> even for atomic vectors because it makes it clear that I want to work with a single element.</p>
+</div>
+</div>
+<div id="the-map-functions" class="section level2">
+<h2>The map functions</h2>
+<p>The pattern of looping over a vector, doing something to each element and saving the results is so common that the purrr package provides a family of functions to do it for you. There is one function for each type of output:</p>
+<ul>
+<li><code>map()</code> makes a list.</li>
+<li><code>map_lgl()</code> makes a logical vector.</li>
+<li><code>map_int()</code> makes an integer vector.</li>
+<li><code>map_dbl()</code> makes a double vector.</li>
+<li><code>map_chr()</code> makes a character vector.</li>
+</ul>
+<p>Each function takes a vector as input, applies a function to each piece, and then returns a new vector that’s the same length (and has the same names) as the input. The type of the vector is determined by the suffix to the map function.</p>
+<p>Once you master these functions, you’ll find it takes much less time to solve iteration problems. But you should never feel bad about using a for loop instead of a map function. The map functions are a step up a tower of abstraction, and it can take a long time to get your head around how they work. The important thing is that you solve the problem that you’re working on, not write the most concise and elegant code (although that’s definitely something you want to strive towards!).</p>
+<p>Some people will tell you to avoid for loops because they are slow. They’re wrong! (Well at least they’re rather out of date, as for loops haven’t been slow for many years). The chief benefits of using functions like <code>map()</code> is not speed, but clarity: they make your code easier to write and to read.</p>
+<p>We can use these functions to perform the same computations as the last for loop. Those summary functions returned doubles, so we need to use <code>map_dbl()</code>:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">map_dbl</span>(df, mean)
+<span class="kw">map_dbl</span>(df, median)
+<span class="kw">map_dbl</span>(df, sd)</code></pre></div>
+<p>Compared to using a for loop, focus is on the operation being performed (i.e. <code>mean()</code>, <code>median()</code>, <code>sd()</code>), not the bookkeeping required to loop over every element and store the output. This is even more apparent if we use the pipe:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">df <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">map_dbl</span>(mean)
+df <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">map_dbl</span>(median)
+df <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">map_dbl</span>(sd)</code></pre></div>
+<p>There are a few differences between <code>map_*()</code> and <code>col_summary()</code>:</p>
+<ul>
+<li><p>All purrr functions are implemented in C. This makes them a little faster at the expense of readability.</p></li>
+<li><p>The second argument, <code>.f</code>, the function to apply, can be a formula, a character vector, or an integer vector. You’ll learn about those handy shortcuts in the next section.</p></li>
+<li><p><code>map_*()</code> uses … ([dot dot dot]) to pass along additional arguments to <code>.f</code> each time it’s called:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">map_dbl</span>(df, mean, <span class="dt">trim =</span> <span class="fl">0.5</span>)</code></pre></div></li>
+<li><p>The map functions also preserve names:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">z &lt;-<span class="st"> </span><span class="kw">list</span>(<span class="dt">x =</span> <span class="dv">1</span><span class="op">:</span><span class="dv">3</span>, <span class="dt">y =</span> <span class="dv">4</span><span class="op">:</span><span class="dv">5</span>)
+<span class="kw">map_int</span>(z, length)</code></pre></div></li>
+</ul>
+<div id="shortcuts" class="section level3">
+<h3>Shortcuts</h3>
+<p>There are a few shortcuts that you can use with <code>.f</code> in order to save a little typing. Imagine you want to fit a linear model to each group in a dataset. The following toy example splits the up the <code>mtcars</code> dataset in to three pieces (one for each value of cylinder) and fits the same linear model to each piece:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">models &lt;-<span class="st"> </span>mtcars <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">split</span>(.<span class="op">$</span>cyl) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">map</span>(<span class="cf">function</span>(df) <span class="kw">lm</span>(mpg <span class="op">~</span><span class="st"> </span>wt, <span class="dt">data =</span> df))</code></pre></div>
+<p>The syntax for creating an anonymous function in R is quite verbose so purrr provides a convenient shortcut: a one-sided formula.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">models &lt;-<span class="st"> </span>mtcars <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">split</span>(.<span class="op">$</span>cyl) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">map</span>(<span class="op">~</span><span class="kw">lm</span>(mpg <span class="op">~</span><span class="st"> </span>wt, <span class="dt">data =</span> .))</code></pre></div>
+<p>Here I’ve used <code>.</code> as a pronoun: it refers to the current list element (in the same way that <code>i</code> referred to the current index in the for loop).</p>
+<p>When you’re looking at many models, you might want to extract a summary statistic like the <span class="math inline">\(R^2\)</span>. To do that we need to first run <code>summary()</code> and then extract the component called <code>r.squared</code>. We could do that using the shorthand for anonymous functions:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">models <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">map</span>(summary) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">map_dbl</span>(<span class="op">~</span>.<span class="op">$</span>r.squared)</code></pre></div>
+<p>But extracting named components is a common operation, so purrr provides an even shorter shortcut: you can use a string.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">models <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">map</span>(summary) <span class="op">%&gt;%</span><span class="st"> </span>
+<span class="st">  </span><span class="kw">map_dbl</span>(<span class="st">&quot;r.squared&quot;</span>)</code></pre></div>
+<p>You can also use an integer to select elements by position:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">x &lt;-<span class="st"> </span><span class="kw">list</span>(<span class="kw">list</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>), <span class="kw">list</span>(<span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>), <span class="kw">list</span>(<span class="dv">7</span>, <span class="dv">8</span>, <span class="dv">9</span>))
+x <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">map_dbl</span>(<span class="dv">2</span>)</code></pre></div>
+<blockquote>
+<h3 id="challenges-1">Challenges</h3>
+<p>Write code that uses one of the map functions to:</p>
+<ol style="list-style-type: decimal">
+<li>Compute the mean of every column in <code>mtcars</code>.</li>
+<li>Compute the number of unique values in each column of <code>iris</code>.</li>
+</ol>
+</blockquote>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
