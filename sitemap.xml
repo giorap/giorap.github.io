@@ -35,6 +35,16 @@
   </url>
   
   <url>
+    <loc>/publication/understanding_ecological_change_across_scales/</loc>
+    <lastmod>2019-04-10T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/better_model_transfers/</loc>
+    <lastmod>2019-04-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication/dhis_and_biodiversity/</loc>
     <lastmod>2019-03-01T00:00:00-08:00</lastmod>
   </url>
@@ -179,6 +189,12 @@
   </url>
   
   <url>
+    <loc>/tags/community-ecology-dynamics-macroecology-paleoecology-processes-scale/</loc>
+    <lastmod>2019-04-10T00:00:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/conservation-prioritization-evolutionary-distinctiveness-threat-decline-uncertainty-british-plants/</loc>
     <lastmod>2015-05-30T00:00:00-07:00</lastmod>
     <priority>0</priority>
@@ -204,7 +220,7 @@
   
   <url>
     <loc>/tags/predictive-modeling-model-transfers-species-distribution-models-habitat-models-extrapolation-generality-uncertainty/</loc>
-    <lastmod>2018-10-25T00:00:00-07:00</lastmod>
+    <lastmod>2019-04-05T00:00:00-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -216,7 +232,7 @@
   
   <url>
     <loc>/publication/</loc>
-    <lastmod>2019-03-01T00:00:00-08:00</lastmod>
+    <lastmod>2019-04-10T00:00:00-07:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -121,21 +121,23 @@ PUBLICATIONS
 
 Submitted <br> *(drafts available* <br> *upon request)*
 
-:     **Rapacciuolo G**, Blois J. Understanding community dynamics in space and time: integrating data and methods in light of theory. *Ecography*.
-
 :     **Rapacciuolo G**, Beman JM, Schiebelhut LM, Dawson MN. Microbes and macro-invertebrates show parallel beta-diversity but contrasting alpha-diversity patterns in a marine natural experiment. *Proceedings of the Royal Society B*.
 
 2019
 
-:     Radeloff VC [and 17 others, including **Rapacciuolo G**]. The Dynamic Habitat Indices (DHIs) from MODIS and global biodiversity. *Remote Sensing of Environment*. **222**: 204-214. [Find full text][44]
+:     **Rapacciuolo G**, Blois J. Understanding ecological change across large spatial, temporal and taxonomic scales: integrating data and methods in light of theory. *Ecography*. Online Early. [Find full text][46].
+
+:     Bouchet PJ [and 28 others, including **Rapacciuolo G**]. Better Model Transfers Require Knowledge of Mechanisms. *Trends in Ecology and Evolution*. Online Early. [Find full text][45]. 
+
+:     Radeloff VC [and 17 others, including **Rapacciuolo G**]. The Dynamic Habitat Indices (DHIs) from MODIS and global biodiversity. *Remote Sensing of Environment*. **222**: 204-214. [Find full text][44].
 
 2018
 
-:     **Rapacciuolo G**, Graham CH, Marin, J, Behm JE, Costa GC, Hedges SB, Helmus MR, Radeloff VC, Young BE, Brooks TM. Species diversity as a surrogate for the conservation of phylogenetic and functional diversity in terrestrial vertebrates across the Americas. *Nature Ecology & Evolution* **3**: 53-61. [Find full text][43]
+:     **Rapacciuolo G**, Graham CH, Marin, J, Behm JE, Costa GC, Hedges SB, Helmus MR, Radeloff VC, Young BE, Brooks TM. Species diversity as a surrogate for the conservation of phylogenetic and functional diversity in terrestrial vertebrates across the Americas. *Nature Ecology & Evolution* **3**: 53-61. [Find full text][43].
 
 :     **Rapacciuolo G**. Strengthening the contribution of macroecological models to conservation practice. Invited contribution for the Macroecology 30th Anniversary Issue at *Global Ecology and Biogeography* **28**: 54-60. [Find full text][42].
 
-:     Yates KL [and 49 others, including **Rapacciuolo G**]. Outstanding challenges in the transferability of ecological models. *Trends in Ecology and Evolution*. Online early. [Find full text][41].
+:     Yates KL [and 49 others, including **Rapacciuolo G**]. Outstanding challenges in the transferability of ecological models. *Trends in Ecology and Evolution*. **33**: 790-802. [Find full text][41].
 
 :     Marin J, **Rapacciuolo G**, Costa GC, Graham CH, Brooks TM, Young BE, Radeloff VC, Behm JE, Helmus MR, Hedges SB. Evolutionary time drives global tetrapod diversity. *Proc. Roy. Soc. B* **285**. [Find full text][40].
 
@@ -291,10 +293,17 @@ INVITED TALKS
 
 CONFERENCE PRESENTATIONS
 ------------------------
+Apr 2019 - Talk
 
-June 2018 - Talk
+:   "Monitoring Marine Protected Areas using Citizen Science". 5th Ocean Climate Summit, San Francisco, CA, USA.
 
-:   "We have all the data, now what? The importance of planning for biodiversity data integration". Digital Data in Biodiversity Research Conference, Berkeley, CA
+Jan 2019 - Talk
+
+:   "Are there universal biodiversity rules? Insights from a marine natural experimental system". International Biogeography Society Biennial Meeting, Malaga, ES.
+
+Jun 2018 - Talk
+
+:   "We have all the data, now what? The importance of planning for biodiversity data integration". Digital Data in Biodiversity Research Conference, Berkeley, CA, USA.
 
 Jan 2017 - Poster
 
@@ -308,27 +317,8 @@ Sep 2011 - Talk
 
 :   "Species distribution models fail to predict observed range shifts of British species from climate". Spatial Ecology and Conservation Conference, Birmingham, UK.
 
-DEPARTMENTAL TALKS (since 2015)
-------------------
-
-Apr 2018
-
-:   "Generalities in community structure between microbes and macro-organisms in the marine lakes of Palau". University of California, Merced, CA, USA.
-
-Mar 2016
-
-:   "Drivers of ecological niche volume and packing in terrestrial vertebrate assemblages across the globe". NatureServe, VA, USA.
-
-Nov 2015
-
-:   "Using disparate historical data sources to understand species' recent and likely future range shifts". Stony Brook University, NY, USA.
-
-Mar 2015
-
-:   "Detection and attribution of species' recent range shifts using disparate historic data sources". University of California, Berkeley, CA, USA.
-
-ACADEMIC SERVICE AND OUTREACH
-----------------
+SERVICE AND OUTREACH
+-----------------
 ### Editor ###
 
 2017 - present
@@ -341,7 +331,7 @@ ACADEMIC SERVICE AND OUTREACH
 
 Publications 
 
-:   Reviewed for *Trends in Ecology and Evolution*, *Biology Letters*, *Global Change Biology*, *Global Ecology and Biogeography*, *Ecography*, *Methods in Ecology and Evolution*, *Journal of Biogeography*, *Animal Conservation*, *Climate Risk Management*, *Climatic Change*, *Ecology and Evolution*, *IBIS*, *PLoS One*. [Publons profile][10].
+:   Reviewed for *Nature Communications*, *Trends in Ecology and Evolution*, *Biology Letters*, *Global Change Biology*, *Global Ecology and Biogeography*, *Ecography*, *Methods in Ecology and Evolution*, *Journal of Biogeography*, *Animal Conservation*, *Climate Risk Management*, *Climatic Change*, *Ecology and Evolution*, *IBIS*, *PLoS One*. [Publons profile][10].
 
 Adaptation plans
 
@@ -355,9 +345,11 @@ Software
 
 :   "HYKL". Bayesian species distribution modeling. Microsoft Research, Cambridge, UK. Jun 2012.
 
-### Co-organizer ###
+### Organizer ###
 
-Workshops 
+Meetings 
+
+:   "Bay Area Biodiversity Modeling Working Group"
 
 :   "Big ecological questions: diverse data, new methods". University of California, Berkeley, CA, USA. Oct 2014.
 
@@ -373,17 +365,14 @@ Workshops
 
 ### Developer ###
 
-Software
+:   Created [MPA Biodiversity Dashboard][47], [MPA iNaturalist Data Explorer][48], and [Snapshot Cal Coast Data Explorer][49] web applications
 
-:   Published R source code associated with a number of projects on [GitHub][38].
+:   Published source code associated with a number of projects on [GitHub][38].
 
 :   Collaborated on [https://holos.berkeley.edu/][15].
 
-Websites
+:   Developed personal research website: [http://giorapacciuolo.com][2].
 
-:   Personal research website: [http://giorapacciuolo.com][2].
-
-:   Purvis lab website. Imperial College London, London, UK. From 2010-2012.
 
 REFERENCES
 ----------
@@ -454,3 +443,8 @@ Imperial College
 [42]:https://onlinelibrary.wiley.com/doi/full/10.1111/geb.12848
 [43]:https://www.nature.com/articles/s41559-018-0744-7
 [44]:https://www.sciencedirect.com/science/article/pii/S0034425718305625
+[45]:https://www.sciencedirect.com/science/article/pii/S0169534719301119
+[46]:https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.04616
+[47]:https://grap.shinyapps.io/MPA_Biodiversity_Dashboard/
+[48]:https://grap.shinyapps.io/MPA_iNat_Explorer/
+[49]:https://grap.shinyapps.io/Snapshot_Exploratory_Tool/
