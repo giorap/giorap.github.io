@@ -38,7 +38,7 @@ Leadership and Management
 
 :   Expertise at the interface between macroecological research and conservation practice.
 
-:   Leadership of international multi-disciplinary and multi-organization teams.
+:   Leadership of multi-disciplinary teams and diverse stakeholder groups.
 
 :   Excellent written and oral communication skills as evidenced by record of scientific publications/talks/lectures.
 
@@ -100,8 +100,12 @@ PROFESSIONAL EXPERIENCE
     
     Advisors: Prof Rosemary Gillespie, Prof Charles Marshall. Project: [Berkeley in Global Change Biology][39]
 
-GRANTS AND FELLOWSHIPS
+GRANTS AND AWARDS
 ------
+2019 - $1,100
+
+:   [**Winner of the Ecography Award for Excellence in Ecology and Evolution**][50]. Nordic Society Oikos, Lund, SWE
+
 2015 - $5,000
 
 :   [**Socio-environmental Immersion Fellowship**][18]. National Socio-Environmental Synthesis Center, MY, USA.
@@ -125,7 +129,7 @@ Submitted <br> *(drafts available* <br> *upon request)*
 
 2019
 
-:     **Rapacciuolo G**, Blois J. Understanding ecological change across large spatial, temporal and taxonomic scales: integrating data and methods in light of theory. *Ecography*. Online Early. [Find full text][46].
+:     **Rapacciuolo G** & Blois J. Understanding ecological change across large spatial, temporal and taxonomic scales: integrating data and methods in light of theory. *Ecography* **42**: 1247-1266. [Find full text][46]. **This publication was awarded the [Ecography Award for Excellence in Ecology and Evolution][50]** 
 
 :     Bouchet PJ [and 28 others, including **Rapacciuolo G**]. Better Model Transfers Require Knowledge of Mechanisms. *Trends in Ecology and Evolution*. Online Early. [Find full text][45]. 
 
@@ -199,11 +203,13 @@ Programming and Data Science
 
 :   Expertise in R programming and statistical environment for integration, manipulation and analysis of big data.
 
-:   Expertise in in reproducible workflows, code version control and management using Git and GitHub.
-
 :   Expertise in data visualization and sharing using ggplot2, R Markdown, R Shiny, HTML, CSS.
 
-:   Working knowledge of Python and SQL.
+:   Expertise in web-based interactive mapping and dashboard applications using leaflet, D3, plotly with R Shiny.
+
+:   Expertise in in reproducible workflows, code version control and management using Git and GitHub.
+
+:   Working knowledge of Python, SQL and JavaScript.
 
 Languages
 
@@ -348,8 +354,9 @@ Software
 ### Organizer ###
 
 Meetings 
+:   "Monitoring MPAs with Citizen Science" Stakeholder Meeting. California Academy of Sciences, San Francisco, CA. Jun 2019.
 
-:   "Bay Area Biodiversity Modeling Working Group"
+:   "Bay Area Biodiversity Modeling Working Group". California Academy of Sciences, San Francisco, CA. Mar 2019-present.
 
 :   "Big ecological questions: diverse data, new methods". University of California, Berkeley, CA, USA. Oct 2014.
 
@@ -448,3 +455,4 @@ Imperial College
 [47]:https://grap.shinyapps.io/MPA_Biodiversity_Dashboard/
 [48]:https://grap.shinyapps.io/MPA_iNat_Explorer/
 [49]:https://grap.shinyapps.io/Snapshot_Exploratory_Tool/
+[50]:https://twitter.com/EcographyJourna/status/1145673769765220354
