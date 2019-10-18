@@ -72,7 +72,7 @@ PROFESSIONAL EXPERIENCE
     *  Organize, host and run meetings with scientists, conservation practitioners, policimakers, and members of the public to discuss research findings and explore recommendations
     *  Public and stakeholder outreach within the Academy
     
-    Advisors: Dr Rebecca Johnson, Dr Alison Young 
+    Advisors: Dr Rebecca Johnson, Dr Alison Young. Funding: [California Ocean Protection Council][52]  
     
 2017 - 2018 
 :   **Postdoctoral Scholar. University of California Merced, CA, USA**
@@ -80,7 +80,7 @@ PROFESSIONAL EXPERIENCE
     *  Model the drivers of ecological community structure and dynamics in Palau marine lake ecosystems
     *  Integrate modern ecological survey data with paleoecological data
     
-    Advisors: Prof Michael Dawson, Prof Jessica Blois. Project: [NSF Dimensions of Biodiversity Grant][30]
+    Advisors: Prof Michael Dawson, Prof Jessica Blois. Funding: [NSF Dimensions of Biodiversity Grant][30]
     
 2015 -  2017 
 :   **Biodiversity Postdoctoral Associate. NatureServe, VA, USA** 
@@ -89,8 +89,7 @@ PROFESSIONAL EXPERIENCE
     *  Analyze the relationship among biodiversity dimensions in spatial conservation planning
     *  Project the future impacts of species extinctions on terrestrial vertebrate biodiversity
     
-    Advisors: Dr Bruce Young, Prof Catherine Graham. Project: [NSF Dimensions of Biodiversity Grant][14]
-
+    Advisors: Dr Bruce Young, Prof Catherine Graham. Funding: [NSF Dimensions of Biodiversity Grant][14]
 
 2013 - 2015 
 :   **Postdoctoral Scholar. University of California Berkeley, CA, USA**      
@@ -98,7 +97,7 @@ PROFESSIONAL EXPERIENCE
     *  Model the responses of California plants, vertebrates and invertebrates to 20th century climate change
     *  Collaborate on building an online tool ([https://holos.berkeley.edu/][15]) integrating many spatial and temporal biodiversity data sources to advance understanding of biotic responses to global change
     
-    Advisors: Prof Rosemary Gillespie, Prof Charles Marshall. Project: [Berkeley in Global Change Biology][39]
+    Advisors: Prof Rosemary Gillespie, Prof Charles Marshall. Funding: [Berkeley in Global Change Biology][39]
 
 GRANTS AND AWARDS
 ------
@@ -125,15 +124,20 @@ PUBLICATIONS
 
 Submitted <br> *(drafts available* <br> *upon request)*
 
-:     **Rapacciuolo G**, Beman JM, Schiebelhut LM, Dawson MN. Microbes and macro-invertebrates show parallel beta-diversity but contrasting alpha-diversity patterns in a marine natural experiment. *Proceedings of the Royal Society B*.
+:     **Rapacciuolo G**, Rominger AJ, Morueta-Holme N, Blois JL. Editorial: Ecological non-equilibrium in the Anthropocene. *Frontiers in Ecology and Evolution*
+
+:     Zurell D [and 22 others, including **Rapacciuolo G**] A standard protocol for reporting species distribution models. *Ecography*.
+
 
 2019
 
-:     **Rapacciuolo G** & Blois J. Understanding ecological change across large spatial, temporal and taxonomic scales: integrating data and methods in light of theory. *Ecography* **42**: 1247-1266. [Find full text][46]. **This publication was awarded the [Ecography Award for Excellence in Ecology and Evolution][50]** 
+:     **Rapacciuolo G**, Beman JM, Schiebelhut LM, Dawson MN. Microbes and macro-invertebrates show parallel beta-diversity but contrasting alpha-diversity patterns in a marine natural experiment. *Proceedings of the Royal Society B* **286** [Find full text][51]
 
-:     Bouchet PJ [and 28 others, including **Rapacciuolo G**]. Better Model Transfers Require Knowledge of Mechanisms. *Trends in Ecology and Evolution*. Online Early. [Find full text][45]. 
+:     **Rapacciuolo G** & Blois J. Understanding ecological change across large spatial, temporal and taxonomic scales: integrating data and methods in light of theory. *Ecography* **42**: 1247-1266. [Find full text][46]. **This publication was awarded the [Ecography Award for Excellence in Ecology and Evolution][50]**. 
 
-:     Radeloff VC [and 17 others, including **Rapacciuolo G**]. The Dynamic Habitat Indices (DHIs) from MODIS and global biodiversity. *Remote Sensing of Environment*. **222**: 204-214. [Find full text][44].
+:     Bouchet PJ [and 28 others, including **Rapacciuolo G**]. Better Model Transfers Require Knowledge of Mechanisms. *Trends in Ecology and Evolution* **34**: 489-490. [Find full text][45]. 
+
+:     Radeloff VC [and 17 others, including **Rapacciuolo G**]. The Dynamic Habitat Indices (DHIs) from MODIS and global biodiversity. *Remote Sensing of Environment* **222**: 204-214. [Find full text][44].
 
 2018
 
@@ -141,7 +145,7 @@ Submitted <br> *(drafts available* <br> *upon request)*
 
 :     **Rapacciuolo G**. Strengthening the contribution of macroecological models to conservation practice. Invited contribution for the Macroecology 30th Anniversary Issue at *Global Ecology and Biogeography* **28**: 54-60. [Find full text][42].
 
-:     Yates KL [and 49 others, including **Rapacciuolo G**]. Outstanding challenges in the transferability of ecological models. *Trends in Ecology and Evolution*. **33**: 790-802. [Find full text][41].
+:     Yates KL [and 49 others, including **Rapacciuolo G**]. Outstanding challenges in the transferability of ecological models. *Trends in Ecology and Evolution* **33**: 790-802. [Find full text][41].
 
 :     Marin J, **Rapacciuolo G**, Costa GC, Graham CH, Brooks TM, Young BE, Radeloff VC, Behm JE, Helmus MR, Hedges SB. Evolutionary time drives global tetrapod diversity. *Proc. Roy. Soc. B* **285**. [Find full text][40].
 
@@ -354,6 +358,7 @@ Software
 ### Organizer ###
 
 Meetings 
+
 :   "Monitoring MPAs with Citizen Science" Stakeholder Meeting. California Academy of Sciences, San Francisco, CA. Jun 2019.
 
 :   "Bay Area Biodiversity Modeling Working Group". California Academy of Sciences, San Francisco, CA. Mar 2019-present.
@@ -456,3 +461,5 @@ Imperial College
 [48]:https://grap.shinyapps.io/MPA_iNat_Explorer/
 [49]:https://grap.shinyapps.io/Snapshot_Exploratory_Tool/
 [50]:https://twitter.com/EcographyJourna/status/1145673769765220354
+[51]:https://royalsocietypublishing.org/doi/full/10.1098/rspb.2019.0999
+[52]:http://www.opc.ca.gov/
