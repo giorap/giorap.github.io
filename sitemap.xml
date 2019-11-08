@@ -35,6 +35,11 @@
   </url>
   
   <url>
+    <loc>/publication/ecological_nonequilibrium_in_the_anthropocene/</loc>
+    <lastmod>2019-04-10T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication/comparing_microbial_and_macroorganismal_diversity/</loc>
     <lastmod>2019-04-10T00:00:00-07:00</lastmod>
   </url>
@@ -208,6 +213,12 @@
   <url>
     <loc>/tags/conservation-prioritization-evolutionary-distinctiveness-threat-decline-uncertainty-british-plants/</loc>
     <lastmod>2015-05-30T00:00:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ecological-non-equilibrium-spatiotemporal-scale-anthropocene-paleoecology-non-stationarity/</loc>
+    <lastmod>2019-04-10T00:00:00-07:00</lastmod>
     <priority>0</priority>
   </url>
   
