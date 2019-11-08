@@ -124,14 +124,14 @@ PUBLICATIONS
 
 Submitted <br> *(drafts available* <br> *upon request)*
 
-:     **Rapacciuolo G**, Rominger AJ, Morueta-Holme N, Blois JL. Editorial: Ecological non-equilibrium in the Anthropocene. *Frontiers in Ecology and Evolution*
-
 :     Zurell D [and 22 others, including **Rapacciuolo G**] A standard protocol for reporting species distribution models. *Ecography*.
 
 
 2019
 
-:     **Rapacciuolo G**, Beman JM, Schiebelhut LM, Dawson MN. Microbes and macro-invertebrates show parallel beta-diversity but contrasting alpha-diversity patterns in a marine natural experiment. *Proceedings of the Royal Society B* **286** [Find full text][51]
+:     **Rapacciuolo G**, Rominger AJ, Morueta-Holme N, Blois JL. Editorial: Ecological non-equilibrium in the Anthropocene. *Frontiers in Ecology and Evolution* **7**:428. [Find full text][53].
+
+:     **Rapacciuolo G**, Beman JM, Schiebelhut LM, Dawson MN. Microbes and macro-invertebrates show parallel beta-diversity but contrasting alpha-diversity patterns in a marine natural experiment. *Proceedings of the Royal Society B* **286**. [Find full text][51]
 
 :     **Rapacciuolo G** & Blois J. Understanding ecological change across large spatial, temporal and taxonomic scales: integrating data and methods in light of theory. *Ecography* **42**: 1247-1266. [Find full text][46]. **This publication was awarded the [Ecography Award for Excellence in Ecology and Evolution][50]**. 
 
@@ -463,3 +463,4 @@ Imperial College
 [50]:https://twitter.com/EcographyJourna/status/1145673769765220354
 [51]:https://royalsocietypublishing.org/doi/full/10.1098/rspb.2019.0999
 [52]:http://www.opc.ca.gov/
+[53]:https://www.frontiersin.org/articles/10.3389/fevo.2019.00428/full

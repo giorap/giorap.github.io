@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -269,7 +270,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -342,18 +342,6 @@ summary {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -509,12 +497,12 @@ $(document).ready(function () {
 <h4><a href="https://scholar.google.com/citations?user=kLSLO8sAAAAJ&amp;hl=en">Google Scholar profile</a> | <a href="http://giorapacciuolo.com/publications.html">Altmetrics data</a></h4>
 <dl>
 <dt>Submitted <br> <em>(drafts available</em> <br> <em>upon request)</em></dt>
-<dd><p><strong>Rapacciuolo G</strong>, Rominger AJ, Morueta-Holme N, Blois JL. Editorial: Ecological non-equilibrium in the Anthropocene. <em>Frontiers in Ecology and Evolution</em></p>
-</dd>
 <dd><p>Zurell D [and 22 others, including <strong>Rapacciuolo G</strong>] A standard protocol for reporting species distribution models. <em>Ecography</em>.</p>
 </dd>
 <dt>2019</dt>
-<dd><p><strong>Rapacciuolo G</strong>, Beman JM, Schiebelhut LM, Dawson MN. Microbes and macro-invertebrates show parallel beta-diversity but contrasting alpha-diversity patterns in a marine natural experiment. <em>Proceedings of the Royal Society B</em> <strong>286</strong> <a href="https://royalsocietypublishing.org/doi/full/10.1098/rspb.2019.0999">Find full text</a></p>
+<dd><p><strong>Rapacciuolo G</strong>, Rominger AJ, Morueta-Holme N, Blois JL. Editorial: Ecological non-equilibrium in the Anthropocene. <em>Frontiers in Ecology and Evolution</em> <strong>7</strong>:428. <a href="https://www.frontiersin.org/articles/10.3389/fevo.2019.00428/full">Find full text</a>.</p>
+</dd>
+<dd><p><strong>Rapacciuolo G</strong>, Beman JM, Schiebelhut LM, Dawson MN. Microbes and macro-invertebrates show parallel beta-diversity but contrasting alpha-diversity patterns in a marine natural experiment. <em>Proceedings of the Royal Society B</em> <strong>286</strong>. <a href="https://royalsocietypublishing.org/doi/full/10.1098/rspb.2019.0999">Find full text</a></p>
 </dd>
 <dd><p><strong>Rapacciuolo G</strong> &amp; Blois J. Understanding ecological change across large spatial, temporal and taxonomic scales: integrating data and methods in light of theory. <em>Ecography</em> <strong>42</strong>: 1247-1266. <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.04616">Find full text</a>. <strong>This publication was awarded the <a href="https://twitter.com/EcographyJourna/status/1145673769765220354">Ecography Award for Excellence in Ecology and Evolution</a></strong>.</p>
 </dd>
@@ -800,6 +788,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
