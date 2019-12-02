@@ -22,17 +22,17 @@ Biodiversity and Global Change
 
 :   Modeling of past and future impacts of environmental change on the distribution of species and ecosystems.
 
-:   Geospatial analyses and Geographic Information Systems (GIS).
+:   Geospatial analyses and GIS.
 
 :   Systematic conservation planning.
 
 Data Science
 
-:   Programming and statistics.
+:   Synthesis, management, analysis of big datasets.
 
-:   Synthesis, management, analysis and visualization of big datasets.
+:   Interactive web-based visualizations and information sharing.
 
-:   Information sharing and open and reproducible science workflows.
+:   Open and reproducible science workflows.
 
 Leadership and Management
 
@@ -40,9 +40,7 @@ Leadership and Management
 
 :   Leadership of multi-disciplinary teams and diverse stakeholder groups.
 
-:   Excellent written and oral communication skills as evidenced by record of scientific publications/talks/lectures.
-
-:   Supervision and training of undergraduate and graduate students.
+:   Excellent written and oral communication and knowledge transfer skills.
 
 EDUCATION
 ---------
@@ -271,6 +269,12 @@ TEACHING
 
 INVITED TALKS
 -------------
+12 Nov 2019
+
+:   **San Francisco State University, San Francisco, CA, USA.**
+
+    "Detecting biodiversity change from unstructured citizen science data" 
+    
 22 Mar 2018
 
 :   **University of California Berkeley, Berkeley, CA, USA.**
@@ -331,7 +335,7 @@ SERVICE AND OUTREACH
 -----------------
 ### Editor ###
 
-2017 - present
+2017 - 2019
 
 :   Guest Associate Editor for [Frontiers in Ecology and Evolution][35], Biogeography and Macroecology section.
 
@@ -357,6 +361,10 @@ Software
 
 ### Organizer ###
 
+Seminars
+
+:   "Biotic responses to climate change in California". University of California, Berkeley, CA, USA. Apr-Dec 2013.
+
 Meetings 
 
 :   "Monitoring MPAs with Citizen Science" Stakeholder Meeting. California Academy of Sciences, San Francisco, CA. Jun 2019.
@@ -365,21 +373,15 @@ Meetings
 
 :   "Big ecological questions: diverse data, new methods". University of California, Berkeley, CA, USA. Oct 2014.
 
-Seminars
+###  Developer  ###
 
-:   "Biotic responses to climate change in California". University of California, Berkeley, CA, USA. Apr-Dec 2013.
-
-### Facilitator ###
-
-Workshops
-
-:   [Cross-Disciplinary Statistical Applications in the Anthropocene][34]. SESYNC, MD, USA. Sep 2017.
-
-### Developer ###
-
-:   Created [MPA Biodiversity Dashboard][47], [MPA iNaturalist Data Explorer][48], and [Snapshot Cal Coast Data Explorer][49] web applications
+Software
 
 :   Published source code associated with a number of projects on [GitHub][38].
+
+Web tools
+
+:   Created [MPA Biodiversity Dashboard][47], [MPA iNaturalist Data Explorer][48], and [Snapshot Cal Coast Data Explorer][49] web applications
 
 :   Collaborated on [https://holos.berkeley.edu/][15].
 
