@@ -1,5 +1,5 @@
 ---
-date: "AUg 28, 2018"
+date: "Dec 17, 2019"
 output:
   html_document:
     css: grapacciuolo-resume-theme.css
@@ -120,10 +120,9 @@ PUBLICATIONS
 
 #### [Google Scholar profile][9] | [Altmetrics data][8]
 
-Submitted <br> *(drafts available* <br> *upon request)*
+2020
 
-:     Zurell D [and 22 others, including **Rapacciuolo G**] A standard protocol for reporting species distribution models. *Ecography*.
-
+:     Zurell D [and 22 others, including **Rapacciuolo G**] A standard protocol for reporting species distribution models. *Ecography*. [Find full text][54]
 
 2019
 
@@ -269,6 +268,18 @@ TEACHING
 
 INVITED TALKS
 -------------
+28 Feb 2020
+
+:   **University of California Berkeley, Berkeley, CA, USA.**
+
+    "Detecting biodiversity change from unstructured citizen science data to inform coastal management" 
+    
+05 Feb 2020
+
+:   **Sonoma State University, Santa Rosa, CA, USA.**
+
+    "Detecting biodiversity change from unstructured citizen science data to inform coastal management" 
+
 12 Nov 2019
 
 :   **San Francisco State University, San Francisco, CA, USA.**
@@ -307,6 +318,10 @@ INVITED TALKS
 
 CONFERENCE PRESENTATIONS
 ------------------------
+Feb 2020 - Talk
+
+:   "Monitoring Marine Protected Areas using Citizen Science". AGU Ocean Sciences 2020, San Diego, CA, USA.
+
 Apr 2019 - Talk
 
 :   "Monitoring Marine Protected Areas using Citizen Science". 5th Ocean Climate Summit, San Francisco, CA, USA.
@@ -367,11 +382,11 @@ Seminars
 
 Meetings 
 
+:   "Monitoring California's Coastal Biodiversity with Citizen Science" Stakeholder Webinar. California Academy of Sciences, San Francisco, CA. May 2020.
+
 :   "Monitoring MPAs with Citizen Science" Stakeholder Meeting. California Academy of Sciences, San Francisco, CA. Jun 2019.
 
-:   "Bay Area Biodiversity Modeling Working Group". California Academy of Sciences, San Francisco, CA. Mar 2019-present.
-
-:   "Big ecological questions: diverse data, new methods". University of California, Berkeley, CA, USA. Oct 2014.
+:   "Bay Area Biodiversity Modeling Working Group". California Academy of Sciences, San Francisco, CA. Mar 2019.
 
 ###  Developer  ###
 
@@ -381,12 +396,11 @@ Software
 
 Web tools
 
-:   Created [MPA Biodiversity Dashboard][47], [MPA iNaturalist Data Explorer][48], and [Snapshot Cal Coast Data Explorer][49] web applications
+:   Creator and developer of [http://calcoast.dob.bio][55]
 
 :   Collaborated on [https://holos.berkeley.edu/][15].
 
 :   Developed personal research website: [http://giorapacciuolo.com][2].
-
 
 REFERENCES
 ----------
@@ -466,3 +480,4 @@ Imperial College
 [51]:https://royalsocietypublishing.org/doi/full/10.1098/rspb.2019.0999
 [52]:http://www.opc.ca.gov/
 [53]:https://www.frontiersin.org/articles/10.3389/fevo.2019.00428/full
+[54]:https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.04960
