@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Species Distribution Models Protocol Methods Odmap on Giovanni Rapacciuolo</title>
+    <link>/tags/species-distribution-models-protocol-methods-odmap/</link>
+    <description>Recent content in Species Distribution Models Protocol Methods Odmap on Giovanni Rapacciuolo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Apr 2019 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="/tags/species-distribution-models-protocol-methods-odmap/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A standard protocol for reporting species distribution models</title>
+      <link>/publication/odmap_sdm_protocol/</link>
+      <pubDate>Wed, 10 Apr 2019 00:00:00 -0700</pubDate>
+      
+      <guid>/publication/odmap_sdm_protocol/</guid>
+      <description>Related materials</description>
+    </item>
+    
+  </channel>
+</rss>
