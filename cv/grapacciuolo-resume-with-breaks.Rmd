@@ -88,6 +88,12 @@ PROFESSIONAL EXPERIENCE
     
     Advisors: Dr Bruce Young, Prof Catherine Graham. Funding: [NSF Dimensions of Biodiversity Grant][14].
 
+
+<p style="page-break-before: always">
+<br>
+<br>
+
+
 2013 - 2015 
 :   **Postdoctoral Scholar. University of California Berkeley, CA, USA**      
     
@@ -143,6 +149,12 @@ Submitted
 
 :     **Rapacciuolo G**. (2019). Strengthening the contribution of macroecological models to conservation practice. Invited contribution for the Macroecology 30th Anniversary Issue at *Global Ecology and Biogeography* **28**: 54-60. [Find full text][42].
 
+
+<p style="page-break-before: always">
+<br>
+<br>
+
+
 2018
 
 :     Yates KL [and 49 others, including **Rapacciuolo G**] (2018). Outstanding challenges in the transferability of ecological models. *Trends in Ecology and Evolution* **33**: 790-802. [Find full text][41].
@@ -196,6 +208,10 @@ predictive accuracy for range change. *PLoS One* **7**: e40212. [Find full text]
 2020
 
 :     Rapacciuolo G, Young A, Johnson R (2020). Monitoring California’s Coastal Biodiversity with Crowd-Sourced Citizen Science. *California Academy of Sciences, CA*, *California Ocean Protection Council, CA*, and *California Department of Fish and Wildlife, CA*. p. 38.[Find full text][55].
+
+<p style="page-break-before: always">
+<br>
+<br>
 
 2018
 
@@ -287,6 +303,10 @@ INVITED TALKS
 :   **[Botanical Society of the British Isles][28], Edinburgh, UK.**
 
     "Can we predict recently-observed changes in the British Flora?".
+
+<p style="page-break-before: always">
+<br>
+<br>
 
 CONFERENCE PRESENTATIONS
 ------------------------
@@ -381,6 +401,10 @@ TEACHING
 2010, 2011    
     
 :   Generalised Linear Modeling in R course. Imperial College London, UK.
+
+<p style="page-break-before: always">
+<br>
+<br>
 
 SERVICE AND OUTREACH
 -----------------
