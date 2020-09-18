@@ -63,14 +63,13 @@ EDUCATION
 PROFESSIONAL EXPERIENCE
 -----------------------
 2018 - present
-:   **Research Scientist. California Academy of Sciences, CA, USA**
+:   **Biodiversity Data Scientist. California Academy of Sciences, CA, USA**
     
-    *  Build capacity to use community-based science efforts to inform management of coastal biodiversity and Marine Protected Areas in California.
-    *  Lead the preparation of reports to California Fish and Wildlife and California Ocean Protection Council.
-    *  Organize, host and run meetings with scientists, conservation practitioners, policymakers, and members of the public to discuss research findings and explore recommendations.
+    *  Integrate, analyze, model, and visualize community-contributed biodiversity observations to answer key research and management questions.
+    *  Lead initiatives to translate community-contributed species occurrence data into biodiversity indicators useful for decision making.
+    *  Build partnerships with biodiversity data stakeholders and translate biodiversity insights for policymakers, managers, academic researchers, and the public.
+    * Design and build software and web-based interactive tools to visualize biodiversity insights derived from community-contributed and additional data.
 
-    Funding: [California Ocean Protection Council][52].  
-    
 2017 - 2018 
 :   **Postdoctoral Scholar. University of California Merced, CA, USA**
     
@@ -98,6 +97,10 @@ PROFESSIONAL EXPERIENCE
 
 GRANTS AND AWARDS
 ------
+2020 - $200,000
+
+:   [**Ocean Protection Council Grant**]. State of California Natural Resources Agency, CA, USA.
+
 2019 — $1,100
 
 :   [**Ecography Award for Excellence in Ecology and Evolution, Winner**][50]. Nordic Society Oikos, SWE.
@@ -210,7 +213,7 @@ Biodiversity Modeling
 
 :   Expertise in species distribution and occupancy modeling using Generalized Linear, Machine Learning, and Hierarchical Bayesian models.
 
-:   Expertise in modeling spatial and temporal variation in of species, functional and phylogenetic diversity of ecological communities. 
+:   Expertise in modeling spatial and temporal variation in species, functional and phylogenetic diversity of ecological communities. 
 
 :   Expertise in geospatial analyses and Geographic Information Systems (GIS) using R, ArcGIS and ArcPy.
 
@@ -318,17 +321,17 @@ Jun 2018
 
 :   "We have all the data, now what? The importance of planning for biodiversity data integration". Digital Data in Biodiversity Research Conference, Berkeley, CA, USA.
 
-Sep 2011 - Talk
+Sep 2011
 
 :   "Species distribution models fail to predict observed range shifts of British species from climate". Spatial Ecology and Conservation Conference, Birmingham, UK.
 
 ### Posters ###
 
-Jan 2017 - Poster
+Jan 2017
 
 :    "A signature of human pressure amid ecological constraints on the distribution of body mass in tetrapods". International Biogeography Society Meeting, Tucson, AZ, USA.
 
-Apr 2014 - Poster
+Apr 2014
 
 :    "Rescuing and integrating data in the face of global change". Understanding Biodiversity Dynamics Symposium, Canberra, AU.
 
@@ -372,6 +375,12 @@ TEACHING
 
 :   Arif Ali. BS, Computer Science, University of California, Berkeley, CA, USA.
 
+### Instructor ###
+
+2019, 2020
+
+:   Introduction to R, Introduction to R as a GIS, Species Distribution Modeling in R. California Academy of Sciences, CA, USA.
+
 ### Co-instructor ###
 
 2013, 2014
@@ -386,23 +395,27 @@ SERVICE AND OUTREACH
 -----------------
 ### Editor ###
 
+2020 - present
+
+:  Associate Editor for [Ecological Solutions and Evidence][62], British Ecological Society, London, UK.
+
 2017 - 2019
 
-:   Guest Associate Editor for [Frontiers in Ecology and Evolution][35], Biogeography and Macroecology section.
-
-:   Editor of topic ["Ecological non-equilibrium in the Anthropocene"][37] in Frontiers in Ecology and Evolution.
+:   Guest Associate Editor for [Frontiers in Ecology and Evolution][35], Biogeography and Macroecology section on topic ["Ecological non-equilibrium in the Anthropocene"][37].
 
 ### Reviewer ###
 
 Publications 
 
-:   Reviewed for *Nature Communications*, *Trends in Ecology and Evolution*, *Biology Letters*, *Global Change Biology*, *Global Ecology and Biogeography*, *Ecography*, *Methods in Ecology and Evolution*, *Diversity and Distributions*, *Journal of Biogeography*, *Animal Conservation*, *Climate Risk Management*, *Climatic Change*, *Ecology and Evolution*, *IBIS*, *PLoS One*. [Publons profile][10].
+:   Reviewed for *Nature Communications*, *Nature Ecology & Evolution*, *Trends in Ecology and Evolution*, *Biology Letters*, *Global Change Biology*, *Global Ecology and Biogeography*, *Ecography*, *Methods in Ecology and Evolution*, *Journal of Animal Ecology*, *Diversity and Distributions*, *Journal of Biogeography*, *Animal Conservation*, *Climate Risk Management*, *Climatic Change*, *Ecology and Evolution*, *IBIS*, *PLoS One*. [Publons profile][10].
 
 Adaptation plans
 
 :   ["Silicon Valley 2.0"][19]. Climate change adaptation assessment. Santa Clara Office of Sustainability, San Francisco, CA, USA. Sep 2014.
 
 Grants
+
+:   Reviewed for *NOAA Sea Grant*. Aug 2020
 
 :   Reviewed for *National Science Foundation*. Nov 2015.
 
@@ -526,3 +539,4 @@ REFERENCES
 [59]:https://www.youtube.com/watch?v=jVwHzXTii0M
 [60]:https://www.bbc.co.uk/sounds/play/m0004cqh
 [61]:https://news.ucmerced.edu/news/2019/biodiversity-study-indicates-large-and-small-organisms-react-similarly-environment
+[62]:https://besjournals.onlinelibrary.wiley.com/journal/26888319
