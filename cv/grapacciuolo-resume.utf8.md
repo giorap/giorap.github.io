@@ -198,7 +198,7 @@ predictive accuracy for range change. *PLoS One* **7**: e40212. [Find full text]
 
 2020
 
-:     Rapacciuolo G, Young A, Johnson R (2020). Monitoring California’s Coastal Biodiversity with Crowd-Sourced Citizen Science. *California Academy of Sciences, CA*, *California Ocean Protection Council, CA*, and *California Department of Fish and Wildlife, CA*. p. 38. [Find full text][55].
+:     Rapacciuolo G, Young A, Johnson R (2020). Monitoring California’s Coastal Biodiversity with Crowd-Sourced Citizen Science. *California Academy of Sciences, CA*, *California Ocean Protection Council, CA*, and *California Department of Fish and Wildlife, CA*. p. 38.[Find full text][55].
 
 2018
 
@@ -379,7 +379,7 @@ TEACHING
 
 2019, 2020
 
-:   Computational workshops: Introduction to R, Introduction to R as a GIS, Species Distribution Modeling in R. California Academy of Sciences, CA, USA.
+:   Introduction to R, Introduction to R as a GIS, Species Distribution Modeling in R. California Academy of Sciences, CA, USA.
 
 ### Co-instructor ###
 
@@ -397,7 +397,7 @@ SERVICE AND OUTREACH
 
 2020 - present
 
-:  Associate Editor for [Ecological Solutions and Evidence][62]. British Ecological Society, London, UK.
+:  Associate Editor for [Ecological Solutions and Evidence][62], British Ecological Society, London, UK.
 
 2017 - 2019
 
