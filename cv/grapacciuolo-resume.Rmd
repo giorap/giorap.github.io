@@ -1,5 +1,5 @@
 ---
-date: "Dec 17, 2019"
+date: "Jan 21, 2021"
 output:
   html_document:
     css: grapacciuolo-resume-theme.css
@@ -20,7 +20,7 @@ KEY EXPERTISE
 
 Biodiversity and Global Change
 
-:   Modeling of past and future impacts of environmental change on the distribution of species and ecosystems.
+:   Models and forecasts of the distribution of species and ecosystems under environmental change.
 
 :   Geospatial analyses and GIS.
 
@@ -28,17 +28,17 @@ Biodiversity and Global Change
 
 Data Science
 
-:   Synthesis, management, analysis of big datasets.
+:   Synthesis, management, and analysis of big datasets.
 
-:   Interactive web-based visualizations and information sharing.
+:   Interactive web-based visualizations.
 
 :   Open and reproducible science workflows.
 
-Leadership and Management
+Leadership and Collaboration
 
-:   Expertise at the interface between biodiversity modeling and conservation practice.
+:   Expertise at the interface between biodiversity science and conservation practice.
 
-:   Leadership of multi-disciplinary teams and diverse stakeholder groups.
+:   Leadership of multi-disciplinary project teams and diverse stakeholder groups.
 
 :   Excellent written and oral communication and knowledge transfer skills.
 
@@ -66,15 +66,15 @@ PROFESSIONAL EXPERIENCE
 :   **Biodiversity Data Scientist. California Academy of Sciences, CA, USA**
     
     *  Integrate, analyze, model, and visualize community-contributed biodiversity observations to answer key research and management questions.
-    *  Lead initiatives to translate community-contributed species occurrence data into biodiversity indicators useful for decision making.
-    *  Build partnerships with biodiversity data stakeholders and translate biodiversity insights for policymakers, managers, academic researchers, and the public.
+    *  Lead and manage projects to translate community-contributed species occurrence data into biodiversity indicators useful for decision making.
+    *  Build and maintain partnerships with biodiversity data stakeholders, including policymakers, managers, academic researchers, and the public.
     * Design and build software and web-based interactive tools to visualize biodiversity insights derived from community-contributed and additional data.
 
 2017 - 2018 
 :   **Postdoctoral Scholar. University of California Merced, CA, USA**
     
     *  Model the drivers of ecological community structure and dynamics in Palau marine lake ecosystems
-    *  Integrate modern ecological survey data with paleoecological data
+    *  Lead projects integrating modern ecological survey data with paleoecological data
     
     Advisors: Prof Michael Dawson, Prof Jessica Blois. Funding: [NSF Dimensions of Biodiversity Grant][30].
     
@@ -107,7 +107,7 @@ GRANTS AND AWARDS
 
 2015 — $5,000
 
-:   [**Socio-environmental Immersion Fellowship**][18]. National Socio-Environmental Synthesis Center, MY, USA.
+:   [**Socio-environmental Immersion Fellowship**][18]. SESYNC, MY, USA.
 
 2013 — $100,000
 
@@ -120,11 +120,13 @@ GRANTS AND AWARDS
 PUBLICATIONS                                                        
 ------------   
 
-### Peer-reviewed &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [Google Scholar profile][9] | [Altmetrics data][8]
+### Peer-reviewed &nbsp; &nbsp; &nbsp; &nbsp; [Google Scholar profile][9] | [Altmetrics data][8]
 
-Submitted
+In Review
 
-:     Santini L, Antão L, Jung M, Benítez-López A, Rapacciuolo G, Di Marco M, Jones F, Haghkerdar J, González-Suárez M. The interface between Macroecology and Conservation: existing links and untapped opportunities. *Biological Conservation*.
+:     **Rapacciuolo G**, Young A, Johnson R. Deriving indicators of biodiversity change from crowdsourced unstructured community-contributed data. *Oikos*
+
+:     Santini L, Antão L, Jung M, Benítez-López A, **Rapacciuolo G**, Di Marco M, Jones F, Haghkerdar J, González-Suárez M. The interface between Macroecology and Conservation: existing links and untapped opportunities. *BioScience*.
 
 2020
 
@@ -194,17 +196,23 @@ predictive accuracy for range change. *PLoS One* **7**: e40212. [Find full text]
 :     Oliver TH, Gillings S, Girardello M, **Rapacciuolo G**, Brereton TM, Siriwardena GM, Roy DB, Pywell R, Fuller RJ (2012). Population density but not stability can be predicted from species distribution models. *Journal of Applied Ecology* **49**: 581 - 590. [Find full text][7].
 
 
-### Other publications ###
+### Scientific Reports ###
 
 2020
 
-:     Rapacciuolo G, Young A, Johnson R (2020). Monitoring California’s Coastal Biodiversity with Crowd-Sourced Citizen Science. *California Academy of Sciences, CA*, *California Ocean Protection Council, CA*, and *California Department of Fish and Wildlife, CA*. p. 38. [Find full text][55].
+:     **Rapacciuolo G**, Young A, Johnson R (2020). Monitoring California’s Coastal Biodiversity with Crowd-Sourced Citizen Science. *California Academy of Sciences, CA*, *California Ocean Protection Council, CA*, and *California Department of Fish and Wildlife, CA*. p. 38. [Find full text][55].
+
+### Blog Posts ###
+
+2020
+
+:     **Rapacciuolo G** (2018). It’s time to strengthen the macroecology–conservation practice interface (commentary). *Mongabay*. [Find full text][57].
 
 2018
 
-:     Rapacciuolo G (2018). Knowledge of species diversity may be sufficient to preserve other dimensions of biodiversity. *Nature Ecology & Evolution Community Blog*. [Find full text][58].
+:     **Rapacciuolo G** (2018). Knowledge of species diversity may be sufficient to preserve other dimensions of biodiversity. *Nature Ecology & Evolution Community Blog*. [Find full text][58].
 
-:     Rapacciuolo G (2018). It’s time to strengthen the macroecology–conservation practice interface (commentary). *Mongabay*. [Find full text][57].
+<P style="page-break-before: always">
 
 TECHNICAL SKILLS
 ----------------
@@ -217,7 +225,7 @@ Biodiversity Modeling
 
 :   Expertise in geospatial analyses and Geographic Information Systems (GIS) using R, ArcGIS and ArcPy.
 
-:   Expertise in systematic spatial conservation planning using Zonation.
+:   Expertise in systematic spatial conservation planning using Zonation and Marxan.
 
 Programming and Data Science
 
@@ -230,6 +238,12 @@ Programming and Data Science
 :   Expertise in in reproducible workflows, code version control and management using Git and GitHub.
 
 :   Working knowledge of Python, SQL and JavaScript.
+
+Project Leadership and Management
+
+:   Expertise in the steering and coordination of large biodiversity science projects involving diverse collaborators, multiple disciplines and cultures.
+
+:   Experience in building and maintaining partnerships with biodiversity knowledge stakeholders, including policymakers, managers, academic researchers, and the public.
 
 Languages
 
@@ -291,10 +305,24 @@ INVITED TALKS
 
     "Can we predict recently-observed changes in the British Flora?".
 
-CONFERENCE PRESENTATIONS
-------------------------
+<P style="page-break-before: always">
+
+RECENT PRESENTATIONS
+-------------------------------
 
 ### Talks ###
+
+Feb 2021
+
+:   "Community-powered biodiversity conservation: how your observations can guide coastal management". Webinar.
+
+Dec 2020
+
+:   "Deriving indicators of biodiversity change from crowdsourced unstructured community-contributed data". British Ecological Society Festival of Ecology.
+
+Nov 2020
+
+:   "A Community-powered Early Warning System for Biodiversity Change on the California Coast". Western Society of Naturalists Annual Meeting 2020.
 
 Jun 2020
 
@@ -321,20 +349,6 @@ Jun 2018
 
 :   "We have all the data, now what? The importance of planning for biodiversity data integration". Digital Data in Biodiversity Research Conference, Berkeley, CA, USA.
 
-Sep 2011
-
-:   "Species distribution models fail to predict observed range shifts of British species from climate". Spatial Ecology and Conservation Conference, Birmingham, UK.
-
-### Posters ###
-
-Jan 2017
-
-:    "A signature of human pressure amid ecological constraints on the distribution of body mass in tetrapods". International Biogeography Society Meeting, Tucson, AZ, USA.
-
-Apr 2014
-
-:    "Rescuing and integrating data in the face of global change". Understanding Biodiversity Dynamics Symposium, Canberra, AU.
-
 TEACHING
 --------
 ### Guest lecturer ###
@@ -345,15 +359,21 @@ TEACHING
 
 :   "Change in Communities". Fundamentals of Ecology. University of California, Merced, CA, USA.
 
-### Teaching assistant ###
+### Instructor ###
 
-2011, 2012
+2019, 2020
 
-:   Computing and Biodiversity courses. MS, Ecology, Evolution and Conservation, Imperial College London, UK. 
+:   Computational workshops: Introduction to R, Introduction to R as a GIS, Species Distribution Modeling in R. California Academy of Sciences, CA, USA.
+
+### Co-instructor ###
+
+2013, 2014
+
+:   [Species Distribution Modeling workshop][26]. University of California, Berkeley, CA, USA.
     
 2010, 2011    
     
-:   Statistics and Computing courses. years 1-3, BS, Biology, Imperial College London, UK.
+:   Generalised Linear Modeling in R course. Imperial College London, UK.
 
 ### Graduate supervisor ###
 
@@ -375,21 +395,17 @@ TEACHING
 
 :   Arif Ali. BS, Computer Science, University of California, Berkeley, CA, USA.
 
-### Instructor ###
+### Teaching assistant ###
 
-2019, 2020
+2011, 2012
 
-:   Computational workshops: Introduction to R, Introduction to R as a GIS, Species Distribution Modeling in R. California Academy of Sciences, CA, USA.
-
-### Co-instructor ###
-
-2013, 2014
-
-:   [Species Distribution Modeling workshop][26]. University of California, Berkeley, CA, USA.
+:   Computing and Biodiversity courses. MS, Ecology, Evolution and Conservation, Imperial College London, UK. 
     
 2010, 2011    
     
-:   Generalised Linear Modeling in R course. Imperial College London, UK.
+:   Statistics and Computing courses. years 1-3, BS, Biology, Imperial College London, UK.
+
+<P style="page-break-before: always">
 
 SERVICE AND OUTREACH
 -----------------
@@ -419,10 +435,6 @@ Grants
 
 :   Reviewed for *National Science Foundation*. Nov 2015.
 
-Software
-
-:   "HYKL". Bayesian species distribution modeling. Microsoft Research, Cambridge, UK. Jun 2012.
-
 ### Organizer ###
 
 Seminars
@@ -444,6 +456,8 @@ Software
 :   Published source code associated with a number of projects on [GitHub][38].
 
 Web tools
+
+:   Creator and developer of [Climate Change Exposure on the California Coast][63]
 
 :   Creator and developer of [http://calcoast.dob.bio][55]
 
@@ -475,8 +489,6 @@ REFERENCES
 **Prof Jessica Blois** | jblois@ucmerced.edu, Associate Professor, University of California Merced, CA, USA.
 
 **Dr Thomas Brooks** | thomas.brooks@iucn.org. Head, Science and Knowledge, IUCN, CH.
-
-**Dr Catherine Graham** | catherine.graham@wsl.ch. Senior Scientist, Swiss Federal Research Institute, CH.
 
 [1]:https://www.calacademy.org/scientists
 [2]:http://giorapacciuolo.com
@@ -540,3 +552,4 @@ REFERENCES
 [60]:https://www.bbc.co.uk/sounds/play/m0004cqh
 [61]:https://news.ucmerced.edu/news/2019/biodiversity-study-indicates-large-and-small-organisms-react-similarly-environment
 [62]:https://besjournals.onlinelibrary.wiley.com/journal/26888319
+[63]:https://grap.shinyapps.io/calcoast-climate-change-exposure/
